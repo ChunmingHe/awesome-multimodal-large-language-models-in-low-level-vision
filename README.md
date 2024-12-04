@@ -3,7 +3,7 @@
 
 
 
-<p align=center>🔥A curated list of awesome <b>Multimodal Large Language Models(MLLMs)</b> in low-level vision.🔥</p>
+<p align=center>🔥A curated list of awesome <b>Multimodal Large Language Models(MLLMs)</b> & <b>Vision-Language Models(MLLMs)</b> in low-level vision.🔥</p>
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 

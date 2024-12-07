@@ -59,8 +59,7 @@
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**AICoderEval: Improving AI Domain Code Generation of Large Language Models**](http://arxiv.org/abs/2406.04712) <br> | arXiv | 2024-06-07 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](http://arxiv.org/abs/2311.08046) <br> | arXiv | 2024-04-05 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
-
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](https://openaccess.thecvf.com/content/CVPR2024/html/Jin_Chat-UniVi_Unified_Visual_Representation_Empowers_Large_Language_Models_with_Image_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Code](https://github.com/PKU-YuanGroup/Chat-UniVi) | - |
 
 ## <a id="related-surveys-recommended">Related Surveys Recommended</a>
 

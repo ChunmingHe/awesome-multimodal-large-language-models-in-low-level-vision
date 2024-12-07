@@ -61,6 +61,7 @@
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
 
+
 ## <a id="related-surveys-recommended">Related Surveys Recommended</a>
 
 **A Survey on Large Language Models for Recommendation**<br />
@@ -112,7 +113,7 @@ arXiv 2024. [[Paper](http://arxiv.org/abs/2412.02104)] <br />Dec. 2024<br />
 arXiv 2024. [[Paper](http://arxiv.org/abs/2405.14093)] <br />Nov. 2024<br />
 
 **A Survey on Multimodal Large Language Models**<br />
-National Science Review 2024. [[Paper](https://doi.org/10.1093/nsr/nwae403)] <br />Nov. 2024<br />Nov. 2024<br />
+National Science Review 2024. [[Paper](https://doi.org/10.1093/nsr/nwae403)] <br />Nov. 2024<br />
 
 ## <a id="awesome-datasets">Awesome Datasets</a>
 

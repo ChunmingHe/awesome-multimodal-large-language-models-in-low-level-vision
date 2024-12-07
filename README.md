@@ -111,8 +111,8 @@ arXiv 2024. [[Paper](http://arxiv.org/abs/2412.02104)] <br />Dec. 2024<br />
 **A Survey on Vision-Language-Action Models for Embodied AI**<br />
 arXiv 2024. [[Paper](http://arxiv.org/abs/2405.14093)] <br />Nov. 2024<br />
 
-**A Survey on Vision-Language-Action Models for Embodied AI**<br />
-National Science Review 2024. [[Paper](https://doi.org/10.1093/nsr/nwae403)] <br />Published: 12 November 2024
+**A Survey on Multimodal Large Language Models**<br />
+National Science Review 2024. [[Paper](https://doi.org/10.1093/nsr/nwae403)] <br />Nov. 2024<br />Nov. 2024<br />
 
 ## <a id="awesome-datasets">Awesome Datasets</a>
 

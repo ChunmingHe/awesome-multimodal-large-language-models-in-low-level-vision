@@ -59,6 +59,7 @@
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**AICoderEval: Improving AI Domain Code Generation of Large Language Models**](http://arxiv.org/abs/2406.04712) <br> | arXiv | 2024-06-07 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](http://arxiv.org/abs/2311.08046) <br> | arXiv | 2024-04-05 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
 
 ## <a id="related-surveys-recommended">Related Surveys Recommended</a>
 
@@ -109,6 +110,9 @@ arXiv 2024. [[Paper](http://arxiv.org/abs/2412.02104)] <br />Dec. 2024<br />
 
 **A Survey on Vision-Language-Action Models for Embodied AI**<br />
 arXiv 2024. [[Paper](http://arxiv.org/abs/2405.14093)] <br />Nov. 2024<br />
+
+**A Survey on Vision-Language-Action Models for Embodied AI**<br />
+National Science Review 2024. [[Paper](https://doi.org/10.1093/nsr/nwae403)] <br />Published: 12 November 2024
 
 ## <a id="awesome-datasets">Awesome Datasets</a>
 

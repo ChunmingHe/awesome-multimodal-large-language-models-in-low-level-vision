@@ -58,6 +58,7 @@
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**ForgeryGPT: Multimodal Large Language Model For Explainable Image Forgery Detection and Localization**](http://arxiv.org/abs/2410.10238) <br> | arXiv | 2024-10-14 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**AICoderEval: Improving AI Domain Code Generation of Large Language Models**](http://arxiv.org/abs/2406.04712) <br> | arXiv | 2024-06-07 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](http://arxiv.org/abs/2311.08046) <br> | arXiv | 2024-04-05 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
 
 ## <a id="related-surveys-recommended">Related Surveys Recommended</a>
 

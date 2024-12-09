@@ -32,10 +32,10 @@
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Image Regeneration: Evaluating Text-to-Image Model via Generating Identical Image with Multimodal Large Language Models**](http://arxiv.org/abs/2411.09449) <br> | arXiv | 2024-11-14 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need**](http://arxiv.org/abs/2411.12448) <br> | arXiv | 2024-11-22 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Learning A Low-Level Vision Generalist via Visual Task Prompt**](http://arxiv.org/abs/2408.08601) <br> | arXiv | 2024-08-16 | [-](-) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**DegAE: A New Pretraining Paradigm for Low-Level Vision**](-) <br> | - | ----- | [-](-) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**LM4LV: A Frozen Large Language Model for Low-level Vision Tasks**](http://arxiv.org/abs/2405.15734) <br> | arXiv | 2024-06-11 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/lyh-18/DegAE_DegradationAutoencoder.svg?style=social&label=Star) <br> [**DegAE: A New Pretraining Paradigm for Low-level Vision**](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_DegAE_A_New_Pretraining_Paradigm_for_Low-Level_Vision_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Code](https://github.com/lyh-18/DegAE_DegradationAutoencoder) | - |
+| ![Star](https://img.shields.io/github/stars/bytetriper/lm4lv.svg?style=social&label=Star) <br> [**LM4LV: A Frozen Large Language Model for Low-level Vision Tasks**](https://arxiv.org/abs/2405.15734) <br> | arXiv | 2024-05 | [Code](https://github.com/bytetriper/lm4lv) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**LoMAE: Low-level Vision Masked Autoencoders for Low-dose CT Denoising**](http://arxiv.org/abs/2310.12405) <br> | arXiv | 2023-10-19 | [-](-) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Multimodal Attention Networks for Low-Level Vision-and-Language Navigation**](http://arxiv.org/abs/1911.12377) <br> | arXiv | 2021-07-30 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/aimagelab/perceive-transform-and-act.svg?style=social&label=Star) <br> [**Multimodal Attention Networks for Low-Level Vision-and-Language Navigation**](https://www.sciencedirect.com/science/article/abs/pii/S1077314221000990) <br> | ScienceDirect | 2021-07 | [Code](https://github.com/aimagelab/perceive-transform-and-act) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**On Domain-Specific Post-Training for Multimodal Large Language Models**](http://arxiv.org/abs/2411.19930) <br> | arXiv | 2024-11-29 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**StoryTeller: Improving Long Video Description through Global Audio-Visual Character Identification**](http://arxiv.org/abs/2411.07076) <br> | arXiv | 2024-11-11 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**EditScribe: Non-Visual Image Editing with Natural Language Verification Loops**](http://arxiv.org/abs/2408.06632) <br> | arXiv | 2024-08-13 | [-](-) | - |
@@ -58,11 +58,23 @@
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**ForgeryGPT: Multimodal Large Language Model For Explainable Image Forgery Detection and Localization**](http://arxiv.org/abs/2410.10238) <br> | arXiv | 2024-10-14 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**AICoderEval: Improving AI Domain Code Generation of Large Language Models**](http://arxiv.org/abs/2406.04712) <br> | arXiv | 2024-06-07 | [-](-) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](http://arxiv.org/abs/2311.08046) <br> | arXiv | 2024-04-05 | [-](-) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large  Language Models: Performance and Challenges  Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](https://openaccess.thecvf.com/content/CVPR2024/html/Jin_Chat-UniVi_Unified_Visual_Representation_Empowers_Large_Language_Models_with_Image_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Code](https://github.com/PKU-YuanGroup/Chat-UniVi) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**A Comprehensive Review of Multimodal Large Language Models: Performance and Challenges Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08-02 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/PKU-YuanGroup/Chat-UniVi.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](https://openaccess.thecvf.com/content/CVPR2024/html/Jin_Chat-UniVi_Unified_Visual_Representation_Empowers_Large_Language_Models_with_Image_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Code](https://github.com/PKU-YuanGroup/Chat-UniVi) | - |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Decoder-Only Transformers: The Brains Behind Generative AI, Large Language Models and Large Multimodal Models**](https://www.techrxiv.org/doi/full/10.36227/techrxiv.173198819.91727188) <br> | techrxiv | 2024-11-19 | [-](-) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**EMU: GENERATIVE PRETRAINING IN MULTIMODALITY**](https://openreview.net/forum?id=mL8Q9OOamV) <br> | OpenReview | 2024-03-15 | [Code](https://github.com/baaivision/Emu) | - |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Enhancing Multimodal Compositional Reasoning of Visual Language Models with Generative Negative Mining**](https://openaccess.thecvf.com/content/WACV2024/html/Sahin_Enhancing_Multimodal_Compositional_Reasoning_of_Visual_Language_Models_With_Generative_WACV_2024_paper.html) <br> | WACV | 2024-01 | [Code](https://ugorsahin.github.io/enhancing-multimodal-compositional-reasoning-of-vlm.html) | - |
+| ![Star](https://img.shields.io/github/stars/baaivision/Emu.svg?style=social&label=Star) <br> [**EMU: GENERATIVE PRETRAINING IN MULTIMODALITY**](https://openreview.net/forum?id=mL8Q9OOamV) <br> | OpenReview | 2024-03-15 | [Code](https://github.com/baaivision/Emu) | - |
+| ![Star](https://img.shields.io/github/stars/ugorsahin/enhancing-multimodal-compositional-reasoning-of-vlm.svg?style=social&label=Star) <br> [**Enhancing Multimodal Compositional Reasoning of Visual Language Models with Generative Negative Mining**](https://openaccess.thecvf.com/content/WACV2024/html/Sahin_Enhancing_Multimodal_Compositional_Reasoning_of_Visual_Language_Models_With_Generative_WACV_2024_paper.html) <br> | WACV | 2024-01 | [Code](https://ugorsahin.github.io/enhancing-multimodal-compositional-reasoning-of-vlm.html) | - |
+| ![Star](https://img.shields.io/github/stars/kohjingyu/gill.svg?style=social&label=Star) <br> [**Generating Images with Multimodal Language Models**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/43a69d143273bd8215578bde887bb552-Abstract-Conference.html) <br> | NeurIPS | 2023-12 | [Code](https://github.com/kohjingyu/gill) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond**](https://arxiv.org/abs/2402.10805) <br> | arXiv | 2024-02-16 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/xinwei666/mmgenerativeir.svg?style=social&label=Star) <br> [**Generative Multi-Modal Knowledge Retrieval with Large Language Models**](https://ojs.aaai.org/index.php/AAAI/article/view/29837) <br> | AAAI | 2024-03-24 | [Code](https://github.com/xinwei666/mmgenerativeir) | - |
+| ![Star](https://img.shields.io/github/stars/baaivision/emu.svg?style=social&label=Star) <br> [**Generative Multimodal Models are In-Context Learners**](https://openaccess.thecvf.com/content/CVPR2024/html/Sun_Generative_Multimodal_Models_are_In-Context_Learners_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Code](https://github.com/baaivision/emu) | - |
+| ![Star](https://img.shields.io/github/stars/kohjingyu/fromage.svg?style=social&label=Star) <br> [**Grounding Language Models to Images for Multimodal Inputs and Outputs**](https://proceedings.mlr.press/v202/koh23a.html) <br> | PMLR | 2023 | [Code](https://github.com/kohjingyu/fromage) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models**](https://arxiv.org/abs/2401.03105) <br> | arXiv | 2024-01 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**MM-LLMs: Recent Advances in MultiModal Large Language Models**](https://arxiv.org/abs/2401.13601) <br> | arXiv | 2024-01 | [-](-) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Q-Instruct: Improving Low-level Visual Abilities for Multi-modality Foundation Models**](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Q-Instruct_Improving_Low-level_Visual_Abilities_for_Multi-modality_Foundation_Models_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Code](https://github.com/Q-Future/Q-Instruct) | - |
+| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback**](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_RLHF-V_Towards_Trustworthy_MLLMs_via_Behavior_Alignment_from_Fine-grained_Correctional_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Code](https://rlhf-v.github.io) | - |
+| ![Star](https://img.shields.io/github/stars/karpathy/llama2.c.svg?style=social&label=Star) <br> [**Training Compute-Optimal Large Language Models**](https://arxiv.org/abs/2203.15556) <br> | arXiv | 2022-03 | [Code](https://github.com/karpathy/llama2.c) | - |
+| ![Star](https://img.shields.io/github/stars/hltchkust/vg-gplms.svg?style=social&label=Star) <br> [**Vision Guided Generative Pre-trained Language Models for Multimodal Abstractive Summarization**](https://arxiv.org/abs/2109.02401) <br> | arXiv | 2021-09 | [Code](https://github.com/hltchkust/vg-gplms) | - |
+| ![Star](https://img.shields.io/github/stars/vitron-llm/vitron.svg?style=social&label=Star) <br> [**VITRON: A Unified Pixel-level Vision LLM for Understanding, Generating, Segmenting, Editing**](https://openreview.net/forum?id=kPmSfhCM5s) <br> | OpenReview | 2024 | [Code](https://vitron-llm.github.io/) | - |
 
 ## <a id="related-surveys-recommended">Related Surveys Recommended</a>
 
@@ -117,6 +129,19 @@ arXiv 2024. [[Paper](http://arxiv.org/abs/2405.14093)] <br />Nov. 2024<br />
 **A Survey on Multimodal Large Language Models**<br />
 National Science Review 2024. [[Paper](https://doi.org/10.1093/nsr/nwae403)] <br />Nov. 2024<br />
 
+**How to Bridge the Gap between Modalities: A Comprehensive Survey on Multi-modal Large Language Model**<br />
+arXiv 2023. [[Paper](https://arxiv.org/abs/2311.07594)] <br />Nov. 2023<br />
+
+**Multimodal Large Language Models: A Survey**<br />
+IEEE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10386743)] <br />2023<br />
+
+**Multimodal Learning With Transformers: A Survey**<br />
+IEEE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10123038)] <br />2023<br />
+
+**Vision-Language Models for Vision Tasks: A Survey**<br />
+IEEE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10445007)] [[Code](https://github.com/jingyi0000/vlm_survey)] <br />2023<br />
+
+
 ## <a id="awesome-datasets">Awesome Datasets</a>
 
 ## <a id="benchmarks-for-evaluation">Benchmarks for Evaluation</a>
@@ -128,6 +153,9 @@ National Science Review 2024. [[Paper](https://doi.org/10.1093/nsr/nwae403)] <br
 | **ChartInsights** | [ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering](http://arxiv.org/abs/2409.09748) | [repo](https://chartinsight.github.io) | - |
 | **HEIE** | [HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator](http://arxiv.org/abs/2411.17261) | [repo](-) | A novel MLLM-Based Hierarchical Explainable image Implausibility Evaluator. |
 | **QL-Bench** | [Explore the Hallucination on Low-level Perception for MLLMs](http://arxiv.org/abs/2409.09748) | [repo](-) | - |
+| **MLLM-as-a-Judge** | [MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark](https://arxiv.org/abs/2402.04788) | [repo](https://github.com/Dongping-Chen/MLLM-Judge) | - |
+| **Q-BOOST** | [Q-BOOST: On Visual Quality Assessment Ability of Low-Level Multi-Modality Foundation Models](https://ieeexplore.ieee.org/abstract/document/10645451) | [repo](https://github.com/Q-Future/Q-Instruct/boost_qa) | A focused exploration of the visual quality assessment capabilities in low-level multi-modality foundation models, introducing Q-BOOST as a benchmark framework. |
+| **SEED-Bench** | [SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension](https://arxiv.org/abs/2307.16125) | [repo](https://github.com/AILab-CVC/SEED-Bench) | A benchmark designed to evaluate the generative comprehension abilities of multimodal large language models across diverse tasks and datasets. |
 
 ## <a id="reference">Reference</a>
 [Awesome-Multimodal-Large-Language-Models-by-BradyFU](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)

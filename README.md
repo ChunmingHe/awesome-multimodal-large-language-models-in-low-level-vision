@@ -65,6 +65,8 @@
 
 ### <a id="specific-task">Specific Task</a>
 
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need**](http://arxiv.org/abs/2411.12448) <br> | arXiv | 2024-11-22 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**LoMAE: Low-level Vision Masked Autoencoders for Low-dose CT Denoising**](http://arxiv.org/abs/2310.12405) <br> | arXiv | 2023-10-19 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**DaLPSR: Leverage Degradation-Aligned Language Prompt for Real-World Image Super-Resolution**](http://arxiv.org/abs/2406.16477) <br> | arXiv | 2024-10-19 | [-](-) |
@@ -72,6 +74,8 @@
 
 ### <a id="multiple-tasks">Multiple Tasks</a>
 
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Learning A Low-Level Vision Generalist via Visual Task Prompt**](http://arxiv.org/abs/2408.08601) <br> | arXiv | 2024-08-16 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**LM4LV: A Frozen Large Language Model for Low-level Vision Tasks**](http://arxiv.org/abs/2405.15734) <br> | arXiv | 2024-06-11 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models**](http://arxiv.org/abs/2407.18035) <br> | arXiv | 2024-07-25 | [-](-) |

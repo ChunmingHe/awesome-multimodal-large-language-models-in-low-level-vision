@@ -188,6 +188,26 @@ IEEE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10445007)] [[C
 
 ### <a id="metrics">Metrics</a>
 
+- **Image Quality Assessment (IQA)**
+  - **PSNR (Peak Signal-to-Noise Ratio)** <br />
+PSNR is a metric based on pixel differences, measuring the Mean Squared Error (MSE) between the generated and real images. A higher PSNR value indicates better image quality.
+  - **SSIM (Structural Similarity Index Measure)** <br />
+SSIM is a metric based on the structural similarity of images, taking into account the similarities in luminance, contrast, and structure. An SSIM value closer to 1 indicates better image quality.
+  - **LPIPS (Learned Perceptual Image Patch Similarity)** <br />
+LPIPS is a perceptual similarity metric based on deep learning, which measures the perceptual difference between images by training convolutional neural networks. A smaller LPIPS value indicates better image quality.
+- **Perceptual Quality Assessment (PQA)**
+  - **NIQE (Naturalness Image Quality Evaluator)** <br />
+NIQE is a no-reference perceptual quality assessment metric that evaluates the realism of an image by analyzing its natural statistical characteristics. A lower NIQE value indicates that the image is closer to natural images.
+  - **BLIND (Blind/Referenceless Image Spatial Quality Evaluator)** <br />
+BLIND is a no-reference perceptual quality assessment metric that evaluates image quality by analyzing its spatial features. A lower BLIND/BIQ value indicates better image quality.
+  - **FR-IQA (Full-Reference Image Quality Assessment)** <br />
+FR-IQA is a full-reference perceptual quality assessment metric that evaluates the quality of generated images by comparing their perceptual differences with real images. Common FR-IQA metrics include LPIPS, MS-SSIM, etc.
+- **Structural Similarity Assessment (SSA)**
+  - **MS-SSIM (Multi-Scale Structural Similarity Index Measure)** <br />
+MS-SSIM is an extended version of SSIM that evaluates overall image quality by calculating structural similarity across multiple scales. An MS-SSIM value closer to 1 indicates better image quality.
+  - **VIF (Visual Information Fidelity)** <br />
+VIF is an information-theoretic metric that assesses image quality by measuring the visual information fidelity between the generated image and the real image. A higher VIF value indicates better image quality.
+
 ## <a id="reference">Reference</a>
 [Awesome-Multimodal-Large-Language-Models-by-BradyFU](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
 

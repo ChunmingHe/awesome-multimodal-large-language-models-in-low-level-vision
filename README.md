@@ -1,11 +1,10 @@
-
 # <p align=center>Awesome Multimodal Large Language Models In Low-level Vision[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ChunmingHe/awesome-multimodal-large-language-models-in-low-level-vision)</p>
 
 <p align=center>🔥A curated list of awesome <b>Multimodal Large Language Models(MLLMs)</b> & <b>Vision-Language Models(MLLMs)</b> in low-level vision.🔥</p>
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2025/03/24 ]</b></p>
+<p align=center><b>[ Last updated at 2026/01/14 ]</b></p>
 
 ## Contents
 
@@ -13,18 +12,47 @@
   - [Contents](#contents)
   - [Latest Works Recommended](#latest-works-recommended)
   - [Awesome Papers](#awesome-papers)
-    - [Specific Task](#specific-task)
-      - [Denoising](#denoising)
-      - [Inpainting](#inpainting)
-      - [SR](#sr)
-    - [Multiple Tasks](#multiple-tasks)
-    - [Other Task](#other-task)
-    - [Model Training](#model-training)
-      - [Pre Training](#pre-training)
-      - [Fine Tuning](#fine-tuning)
+    - [1. Direct VLM Adaptation for Low-Level Vision](#1-direct-vlm-adaptation-for-low-level-vision)
+      - [1.1 Visual Encoder Adaptation: Handling Details](#11-visual-encoder-adaptation-handling-details)
+        - [1.1.1 Resolution Scaling](#111-resolution-scaling)
+        - [1.1.2 Feature Fusion](#112-feature-fusion)
+      - [1.2 Language Branch Adaptation: Bridging Modalities](#12-language-branch-adaptation-bridging-modalities)
+        - [1.2.1 Prompt Learning Strategies](#121-prompt-learning-strategies)
+        - [1.2.2 Instruction Tuning for Restoration](#122-instruction-tuning-for-restoration)
+      - [1.3 Output Head Adaptation: From Tokens to Pixels](#13-output-head-adaptation-from-tokens-to-pixels)
+        - [1.3.1 Tokenizer–Decoder Framework](#131-tokenizerdecoder-framework)
+      - [1.4 Parameter-Efficient Fine-Tuning in Restoration](#14-parameter-efficient-fine-tuning-in-restoration)
+        - [1.4.1 LoRA & Adapter Integration](#141-lora--adapter-integration)
+        - [1.4.2 Freezing Strategies](#142-freezing-strategies)
+    - [2. VLM as Auxiliary for Low-Level Vision](#2-vlm-as-auxiliary-for-low-level-vision)
+      - [2.1 VLM as Semantic Provider: Text-Guided Restoration](#21-vlm-as-semantic-provider-text-guided-restoration)
+        - [2.1.1 Text-Conditioned Injection](#211-text-conditioned-injection)
+        - [2.1.2 Language-Driven Manipulation](#212-language-driven-manipulation)
+        - [2.1.3 Subject-Aware Restoration](#213-subject-aware-restoration)
+      - [2.2 VLM as Degradation Interpreter: Visual-Prompting & Context](#22-vlm-as-degradation-interpreter-visual-prompting--context)
+        - [2.2.1 Degradation Classification](#221-degradation-classification)
+        - [2.2.2 Description-based Restoration](#222-description-based-restoration)
+      - [2.3 VLM as Quality Evaluator: Perception and Assessment](#23-vlm-as-quality-evaluator-perception-and-assessment)
+        - [2.3.1 No-Reference Quality Assessment](#231-no-reference-quality-assessment)
+        - [2.3.2 Semantic Consistency Loss](#232-semantic-consistency-loss)
+        - [2.3.3 Feedback Loops](#233-feedback-loops)
+      - [2.4 VLM as Intelligent Controller: Agent-Based Frameworks](#24-vlm-as-intelligent-controller-agent-based-frameworks)
+        - [2.4.1 Motivation as Intelligent Controller](#241-motivation-as-intelligent-controller)
+        - [2.4.2 Tool Usage & Orchestration](#242-tool-usage--orchestration)
+        - [2.4.3 Iterative Refinement](#243-iterative-refinement)
+    - [3. Extended Applications](#3-extended-applications)
+      - [3.1 Medical Image Processing](#31-medical-image-processing)
+        - [3.1.1 Biomedical VLMs](#311-biomedical-vlms)
+        - [3.1.2 CT and MRI](#312-ct-and-mri)
+      - [3.2 Remote Sensing Data Processing](#32-remote-sensing-data-processing)
+        - [3.2.1 Spatial-domain Tasks](#321-spatial-domain-tasks)
+        - [3.2.2 Spectral-domain Tasks](#322-spectral-domain-tasks)
+      - [3.3 Other Extended Applications](#33-other-extended-applications)
+        - [3.3.1 CAD](#331-cad)
+        - [3.3.2 Video Processing Tasks](#332-video-processing-tasks)
+        - [3.3.3 3D Processing Tasks](#333-3d-processing-tasks)
+  - [Datasets](#datasets)
   - [Related Surveys Recommended](#related-surveys-recommended)
-  - [Benchmarks for Evaluation](#benchmarks-for-evaluation)
-    - [Metrics](#metrics)
   - [Reference](#reference)
 
 ## <a id="latest-works-recommended">Latest Works Recommended</a>
@@ -37,266 +65,223 @@ Jan. 2025<br />
 
 ## <a id="awesome-papers">Awesome Papers</a>
 
-|  Title  |   Venue  |   Date   |   Code   |
-|:--------|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/miv-xjtu/flame.svg?style=social&label=Star) <br> [**FLAME: Frozen Large Language Models Enable Data-Efficient Language-Image Pre-training**](http://arxiv.org/abs/2411.11927) <br> | arXiv | 2024-11 | [Github](https://github.com/miv-xjtu/flame) |
-| ![Star](https://img.shields.io/github/stars/lyh-18/DegAE_DegradationAutoencoder.svg?style=social&label=Star) <br> [**DegAE: A New Pretraining Paradigm for Low-level Vision**](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_DegAE_A_New_Pretraining_Paradigm_for_Low-Level_Vision_CVPR_2023_paper.html) <br> | CVPR | 2023 | [Github](https://github.com/lyh-18/DegAE_DegradationAutoencoder) |
-| [**On Domain-Specific Post-Training for Multimodal Large Language Models**](http://arxiv.org/abs/2411.19930) <br> | arXiv | 2024-11 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/x-plug/mplug-owl.svg?style=social&label=Star) <br> [**mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration**](https://openaccess.thecvf.com/content/CVPR2024/html/Ye_mPLUG-Owl2_Revolutionizing_Multi-modal_Large_Language_Model_with_Modality_Collaboration_CVPR_2024_paper.html) <br> | CVPR | 2024 | [Github](https://github.com/x-plug/mplug-owl) |
-| ![Star](https://img.shields.io/github/stars/nvlabs/prismer.svg?style=social&label=Star) <br> [**Prismer: A Vision-Language Model with Multi-Task Experts**](http://arxiv.org/abs/2303.02506) <br> | arXiv | 2024-01 | [Github](https://github.com/nvlabs/prismer) |
-| ![Star](https://img.shields.io/github/stars/ByungKwanLee/CoLLaVO.svg?style=social&label=Star) <br> [**CoLLaVO: Crayon Large Language and Vision mOdel**](http://arxiv.org/abs/2402.11248) <br> | arXiv | 2024-06 | [Github](https://github.com/ByungKwanLee/CoLLaVO) |
-| ![Star](https://img.shields.io/github/stars/lxtgh/omg-seg.svg?style=social&label=Star) <br> [**OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding**](http://arxiv.org/abs/2406.19389) <br> | arXiv | 2024-10 | [Github](https://github.com/lxtgh/omg-seg) |
-| [**Vision language models are blind**](http://arxiv.org/abs/2407.06581) <br>| - | 2024-07 | [-](-) |
-| [**ForgeryGPT: Multimodal Large Language Model For Explainable Image Forgery Detection and Localization**](http://arxiv.org/abs/2410.10238) <br> | arXiv | 2024-10 | [-](-) |
-| [**A Comprehensive Review of Multimodal Large Language Models: Performance and Challenges Across Different Tasks**](https://arxiv.org/abs/2408.01319) <br> | arXiv | 2024-08 | [-](-) |
-| [**Decoder-Only Transformers: The Brains Behind Generative AI, Large Language Models and Large Multimodal Models**](https://www.techrxiv.org/doi/full/10.36227/techrxiv.173198819.91727188) <br> | techrxiv | 2024-11 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/ugorsahin/enhancing-multimodal-compositional-reasoning-of-vlm.svg?style=social&label=Star) <br> [**Enhancing Multimodal Compositional Reasoning of Visual Language Models with Generative Negative Mining**](https://openaccess.thecvf.com/content/WACV2024/html/Sahin_Enhancing_Multimodal_Compositional_Reasoning_of_Visual_Language_Models_With_Generative_WACV_2024_paper.html) <br> | WACV | 2024-01 | [Github](https://ugorsahin.github.io/enhancing-multimodal-compositional-reasoning-of-vlm.html) |
-| ![Star](https://img.shields.io/github/stars/kohjingyu/gill.svg?style=social&label=Star) <br> [**Generating Images with Multimodal Language Models**](https://proceedings.neurips.cc/paper_files/paper/2023/hash/43a69d143273bd8215578bde887bb552-Abstract-Conference.html) <br> | NeurIPS | 2023-12 | [Github](https://github.com/kohjingyu/gill) |
-| [**Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond**](https://arxiv.org/abs/2402.10805) <br> | arXiv | 2024-02 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/xinwei666/mmgenerativeir.svg?style=social&label=Star) <br> [**Generative Multi-Modal Knowledge Retrieval with Large Language Models**](https://ojs.aaai.org/index.php/AAAI/article/view/29837) <br> | AAAI | 2024-03 | [Github](https://github.com/xinwei666/mmgenerativeir) |
-| ![Star](https://img.shields.io/github/stars/baaivision/emu.svg?style=social&label=Star) <br> [**Generative Multimodal Models are In-Context Learners**](https://openaccess.thecvf.com/content/CVPR2024/html/Sun_Generative_Multimodal_Models_are_In-Context_Learners_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Github](https://github.com/baaivision/emu) |
-| ![Star](https://img.shields.io/github/stars/kohjingyu/fromage.svg?style=social&label=Star) <br> [**Grounding Language Models to Images for Multimodal Inputs and Outputs**](https://proceedings.mlr.press/v202/koh23a.html) <br> | PMLR | 2023 | [Github](https://github.com/kohjingyu/fromage) |
-| [**Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models**](https://arxiv.org/abs/2401.03105) <br> | arXiv | 2024-01 | [-](-) |
-| [**Q-Instruct: Improving Low-level Visual Abilities for Multi-modality Foundation Models**](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Q-Instruct_Improving_Low-level_Visual_Abilities_for_Multi-modality_Foundation_Models_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Github](https://github.com/Q-Future/Q-Instruct) |
-| ![Star](https://img.shields.io/github/stars/RLHF-V/RLHF-V.svg?style=social&label=Star) <br> [**RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback**](https://openaccess.thecvf.com/content/CVPR2024/html/Yu_RLHF-V_Towards_Trustworthy_MLLMs_via_Behavior_Alignment_from_Fine-grained_Correctional_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Github](https://github.com/RLHF-V/RLHF-V) |
-| ![Star](https://img.shields.io/github/stars/karpathy/llama2.c.svg?style=social&label=Star) <br> [**Training Compute-Optimal Large Language Models**](https://arxiv.org/abs/2203.15556) <br> | arXiv | 2022-03 | [Github](https://github.com/karpathy/llama2.c) |
+---
 
-### <a id="specific-task">Specific Task</a>
+### <a id="1-direct-vlm-adaptation-for-low-level-vision">1. Direct VLM Adaptation for Low-Level Vision</a>
 
-#### <a id="denoising">Denoising</a>
+#### <a id="11-visual-encoder-adaptation-handling-details">1.1 Visual Encoder Adaptation: Handling Details</a>
+
+##### <a id="111-resolution-scaling">1.1.1 Resolution Scaling</a>
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/zyhrainbow/SSP-IR.svg?style=social&label=Star) <br> [**MRIR: Integrating Multimodal Insights for Diffusion-based Realistic Image Restoration**](http://arxiv.org/abs/2407.03635) <br> | arXiv | 2024-07 | [GitHub](https://github.com/zyhrainbow/SSP-IR) |
-| ![Star](https://img.shields.io/github/stars/FreedomIntelligence/HuatuoGPT-Vision.svg?style=social&label=Star) <br> [**HuatuoGPT-Vision, Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale**](http://arxiv.org/abs/2406.19280) <br> | arXiv | 2024-09 | [GitHub](https://github.com/FreedomIntelligence/HuatuoGPT-Vision) |
+| ![Star](https://img.shields.io/github/stars/icandle/GenDR.svg?style=social&label=Star) <br> [**GenDR: Lightning Generative Detail Restorator**](https://arxiv.org/abs/2503.06790) <br> | arXiv | 2025-03 | [Github](https://github.com/icandle/GenDR) |
 
-#### <a id="inpainting">Inpainting</a>
-
-|  Title  |   Venue  |   Date   |   Code   |
-|:--------|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/dvlab-research/LLMGA.svg?style=social&label=Star) <br> [**LLMGA: Multimodal Large Language Model based Generation Assistant**](http://arxiv.org/abs/2311.16500) <br> | arXiv | 2024-07 | [GitHub](https://github.com/dvlab-research/LLMGA) |
-| [**IMProv: Inpainting-based Multimodal Prompting for Computer Vision Tasks**](http://arxiv.org/abs/2312.01771) <br> | arXiv | 2023-12 | [Other](https://jerryxu.net/IMProv/) |
-| ![Star](https://img.shields.io/github/stars/jianzongwu/LanguageDriven-Video-Inpainting.svg?style=social&label=Star) <br> [**Towards Language-Driven Video Inpainting via Multimodal Large Language Models**](http://arxiv.org/abs/2401.10226) <br> | arXiv | 2024-10 | [GitHub](https://github.com/jianzongwu/LanguageDriven-Video-Inpainting) |
-
-#### <a id="sr">SR</a>
+##### <a id="112-feature-fusion">1.1.2 Feature Fusion</a>
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/qyp2000/XPSR.svg?style=social&label=Star) <br> [**XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution**](http://arxiv.org/abs/2403.05049) <br> | arXiv | 2024-07 | [GitHub](https://github.com/qyp2000/XPSR) |
-| ![Star](https://img.shields.io/github/stars/puppy210/DaLPSR.svg?style=social&label=Star) <br> [**DaLPSR: Leverage Degradation-Aligned Language Prompt for Real-World Image Super-Resolution**](http://arxiv.org/abs/2406.16477) <br> | arXiv | 2024-10 | [GitHub](https://github.com/puppy210/DaLPSR) |
 
-### <a id="multiple-tasks">Multiple Tasks</a>
+#### <a id="12-language-branch-adaptation-bridging-modalities">1.2 Language Branch Adaptation: Bridging Modalities</a>
 
-|  Title  |   Venue  |   Date   |   Code   |
-|:--------|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/chxy95/GenLV.svg?style=social&label=Star) <br> [**Learning A Low-Level Vision Generalist via Visual Task Prompt**](http://arxiv.org/abs/2408.08601) <br> | arXiv | 2024-08 | [Github](https://github.com/chxy95/GenLV) |
-| ![Star](https://img.shields.io/github/stars/bytetriper/LM4LV.svg?style=social&label=Star) <br> [**LM4LV: A Frozen Large Language Model for Low-level Vision Tasks**](http://arxiv.org/abs/2405.15734) <br> | arXiv | 2024-06 | [Github](https://github.com/bytetriper/LM4LV) |
-| [**RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models**](http://arxiv.org/abs/2407.18035) <br> | arXiv | 2024-07 | [Other](https://haoyuchen.com/RestoreAgent) |
-| [**LLMRA: Multi-modal Large Language Model based Restoration Assistant**](http://arxiv.org/abs/2401.11401) <br> | arXiv | 2024-01 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/zh460045050/V2L-Tokenizer.svg?style=social&label=Star) <br> [**Beyond Text: Frozen Large Language Models in Visual Signal Comprehension**](http://arxiv.org/abs/2403.07874) <br> | arXiv | 2024-03 | [Github](https://github.com/zh460045050/V2L-Tokenizer) |
-| ![Star](https://img.shields.io/github/stars/Algolzw/daclip-uir.svg?style=social&label=Star) <br> [**Controlling Vision-Language Models for Multi-Task Image Restoration**](http://arxiv.org/abs/2310.01018) <br> | arXiv | 2024-02 | [Github](https://github.com/Algolzw/daclip-uir) |
-| [**Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fidelity for All-in-One Image Restoration**](http://arxiv.org/abs/2312.02918) <br> | arXiv | 2024-03 | [Github](https://shallowdream204.github.io/mperceiver/) |
-| [**Clarity ChatGPT: An Interactive and Adaptive Processing System for Image Restoration and Enhancement**](http://arxiv.org/abs/2311.11695) <br> | arXiv | 2023-11 | [-](-) |
-| [**Diff-Restorer: Unleashing Visual Prompts for Diffusion-based Universal Image Restoration**](http://arxiv.org/abs/2407.03636) <br> | arXiv | 2024-07 | [-](-) |
-| [**AllRestorer: All-in-One Transformer for Image Restoration under Composite Degradations**](http://arxiv.org/abs/2411.10708) <br> | arXiv | 2024-11 | [-](-) |
-| [**GridFormer: Residual Dense Transformer with Grid Structure for Image Restoration in Adverse Weather Conditions**](https://doi.org/10.1007/s11263-024-02056-0) <br> | - | 2024-10 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/zhoushen1/MEASNet.svg?style=social&label=Star) <br> [**Multi-Expert Adaptive Selection: Task-Balancing for All-in-One Image Restoration**](http://arxiv.org/abs/2407.19139) <br> | arXiv | 2024-07 | [Github](https://github.com/zhoushen1/MEASNet) |
-| [**Leveraging vision-language prompts for real-world image restoration and enhancement**](https://www.sciencedirect.com/science/article/pii/S1077314224003035) <br> | - | 2025-01 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/shallowdream204/LoRA-IR.svg?style=social&label=Star) <br> [**LoRA-IR: Taming Low-Rank Experts for Efficient All-in-One Image Restoration**](http://arxiv.org/abs/2410.15385) <br> | arXiv | 2024-11 | [Github](https://github.com/shallowdream204/LoRA-IR) |
-| ![Star](https://img.shields.io/github/stars/Kaiwen-Zhu/AgenticIR.svg?style=social&label=Star) <br> [**An Intelligent Agentic System for Complex Image Restoration Problems**](http://arxiv.org/abs/2410.17809) <br> | arXiv | 2024-10 | [Github](https://github.com/Kaiwen-Zhu/AgenticIR) |
-| ![Star](https://img.shields.io/github/stars/intmegroup/uniprocessor.svg?style=social&label=Star) <br> [**UniProcessor: A Text-Induced Unified Low-Level Image Processor**](https://www.arxiv.org/abs/2407.20928) <br> | arXiv | 2024-07 | [Github](https://github.com/intmegroup/uniprocessor) |
-
-### <a id="other-task">Other Task</a>
+##### <a id="121-prompt-learning-strategies">1.2.1 Prompt Learning Strategies</a>
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| [**Large Language Models for Lossless Image Compression: Next-Pixel Prediction in Language Space is All You Need**](http://arxiv.org/abs/2411.12448) <br> | arXiv | 2024-11 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/kingnobro/Chat2SVG.svg?style=social&label=Star) <br> [**Chat2SVG: Vector Graphics Generation with Large Language Models and Image Diffusion Models**](http://arxiv.org/abs/2411.16602) <br> | arXiv | 2024-11 | [Github](https://github.com/kingnobro/Chat2SVG) |
-| [**Image Regeneration: Evaluating Text-to-Image Model via Generating Identical Image with Multimodal Large Language Models**](http://arxiv.org/abs/2411.09449) <br> | arXiv | 2024-11 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/hyc2026/StoryTeller.svg?style=social&label=Star) <br> [**StoryTeller: Improving Long Video Description through Global Audio-Visual Character Identification**](http://arxiv.org/abs/2411.07076) <br> | arXiv | 2024-11 | [Github](https://github.com/hyc2026/StoryTeller) |
-| [**EditScribe: Non-Visual Image Editing with Natural Language Verification Loops**](http://arxiv.org/abs/2408.06632) <br> | arXiv | 2024-08 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/RyannChenOO/MLeVLM.svg?style=social&label=Star) <br> [**MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering**](https://aclanthology.org/2024.findings-acl.296) <br> | Association for Computational Linguistics | 2024-08 | [Github](https://github.com/RyannChenOO/MLeVLM) |
-| ![Star](https://img.shields.io/github/stars/templex98/mova.svg?style=social&label=Star) <br> [**MoVA: Adapting Mixture of Vision Experts to Multimodal Context**](http://arxiv.org/abs/2404.13046) <br> | arXiv | 2024-10 | [Github](https://github.com/templex98/mova) |
-| ![Star](https://img.shields.io/github/stars/pku-yuangroup/chat-univi.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](http://arxiv.org/abs/2311.08046) <br> | arXiv | 2024-04 | [Github](https://github.com/pku-yuangroup/chat-univi) |
-| ![Star](https://img.shields.io/github/stars/PKU-YuanGroup/Chat-UniVi.svg?style=social&label=Star) <br> [**Chat-UniVi: Unified Visual Representation Empowers Large Language Models with Image and Video Understanding**](https://openaccess.thecvf.com/content/CVPR2024/html/Jin_Chat-UniVi_Unified_Visual_Representation_Empowers_Large_Language_Models_with_Image_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [Github](https://github.com/PKU-YuanGroup/Chat-UniVi) |
-| ![Star](https://img.shields.io/github/stars/SkyworkAI/Vitron.svg?style=social&label=Star) <br> [**VITRON: A Unified Pixel-level Vision LLM for Understanding, Generating, Segmenting, Editing**](https://openreview.net/forum?id=kPmSfhCM5s) <br> | OpenReview | 2024 | [Github](https://vitron-llm.github.io/) |
 
-### <a id="model-training">Model Training</a>
-
-#### <a id="pre-training">Pre Training</a>
+##### <a id="122-instruction-tuning-for-restoration">1.2.2 Instruction Tuning for Restoration</a>
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/HeimingX/TAG.svg?style=social&label=Star) <br> [**Attention-driven GUI Grounding: Leveraging Pretrained Multimodal Large Language Models without Fine-Tuning**](http://arxiv.org/abs/2412.10840) <br> | arXiv | 2024-12 | [Github](https://github.com/HeimingX/TAG) |
-| [**From Visuals to Vocabulary: Establishing Equivalence Between Image and Text Token Through Autoregressive Pre-training in MLLMs**](http://arxiv.org/abs/2502.09093) <br> | arXiv | 2025-02 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/hanhuang22/AITQE.svg?style=social&label=Star) <br> [**Beyond Filtering: Adaptive Image-Text Quality Enhancement for MLLM Pretraining**](http://arxiv.org/abs/2410.16166) <br> | arXiv | 2024-10 | [Github](https://github.com/hanhuang22/AITQE) |
-| ![Star](https://img.shields.io/github/stars/baaivision/Emu.svg?style=social&label=Star) <br> [**EMU: GENERATIVE PRETRAINING IN MULTIMODALITY**](https://openreview.net/forum?id=mL8Q9OOamV) <br> | OpenReview | 2024-03 | [Github](https://github.com/baaivision/Emu) |
 
-#### <a id="fine-tuning">Fine Tuning</a>
+#### <a id="13-output-head-adaptation-from-tokens-to-pixels">1.3 Output Head Adaptation: From Tokens to Pixels</a>
+
+##### <a id="131-tokenizerdecoder-framework">1.3.1 Tokenizer–Decoder Framework</a>
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) <br> [**Visual Instruction Tuning**](http://arxiv.org/abs/2304.08485) <br> | arXiv | 2023-12 | [Github](https://github.com/haotian-liu/LLaVA) |
-| ![Star](https://img.shields.io/github/stars/1xbq1/FedMLLM.svg?style=social&label=Star) <br> [**FedMLLM: Federated Fine-tuning MLLM on Multimodal Heterogeneity Data**](http://arxiv.org/abs/2411.14717) <br> | arXiv | 2024-11 | [Github](https://github.com/1xbq1/FedMLLM) |
-| ![Star](https://img.shields.io/github/stars/PVIT-official/PVIT.svg?style=social&label=Star) <br> [**Position-Enhanced Visual Instruction Tuning for Multimodal Large Language Models**](http://arxiv.org/abs/2308.13437) <br> | arXiv | 2023-09 | [Github](https://github.com/PVIT-official/PVIT) |
-| ![Star](https://img.shields.io/github/stars/DCDmllm/Cheetah.svg?style=social&label=Star) <br> [**Fine-tuning Multimodal LLMs to Follow Zero-shot Demonstrative Instructions**](http://arxiv.org/abs/2308.04152) <br> | arXiv | 2024-05 | [Github](https://github.com/DCDmllm/Cheetah) |
-| ![Star](https://img.shields.io/github/stars/adaptNMT/adaptMLLM.svg?style=social&label=Star) <br> [**adaptMLLM: Fine-Tuning Multilingual Language Models on Low-Resource Languages with Integrated LLM Playgrounds**](http://arxiv.org/abs/2403.02370) <br> | - | 2023-11 | [Github](https://github.com/adaptNMT/adaptMLLM/) |
-| ![Star](https://img.shields.io/github/stars/VT-NLP/MixLoRA.svg?style=social&label=Star) <br> [**Multimodal Instruction Tuning with Conditional Mixture of LoRA**](http://arxiv.org/abs/2402.15896) <br> | arXiv | 2024-12 | [Github](https://github.com/VT-NLP/MixLoRA) |
-| [**Towards Robust Instruction Tuning on Multimodal Large Language Models**](http://arxiv.org/abs/2402.14492) <br> | arXiv | 2024-06 | [-](-) |
-| [**Multi-modal Preference Alignment Remedies Degradation of Visual Instruction Tuning on Language Models**](http://arxiv.org/abs/2402.10884) <br> | - | 2024-02 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/jinlHe/PeFoMed.svg?style=social&label=Star) <br> [**PeFoMed: Parameter Efficient Fine-tuning of Multimodal Large Language Models for Medical Imaging**](http://arxiv.org/abs/2401.02797) <br> | arXiv | 2025-01 | [Github](https://github.com/jinlHe/PeFoMed) |
-| ![Star](https://img.shields.io/github/stars/CircleRadon/Osprey.svg?style=social&label=Star) <br> [**Osprey: Pixel Understanding with Visual Instruction Tuning**](http://arxiv.org/abs/2312.10032) <br> | arXiv | 2024-03 | [Github](https://github.com/CircleRadon/Osprey) |
-| [**CLAMP: Contrastive LAnguage Model Prompt-tuning**](http://arxiv.org/abs/2312.01629) <br> | arXiv | 2024-03 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/modelscope/ms-swift.svg?style=social&label=Star) <br> [**SWIFT:A Scalable lightWeight Infrastructure for Fine-Tuning**](http://arxiv.org/abs/2408.05517) <br> | arXiv | 2024-08 | [Github](https://github.com/modelscope/ms-swift) |
-| ![Star](https://img.shields.io/github/stars/yunche0/GA-Net.svg?style=social&label=Star) <br> [**Multi-Modal Parameter-Efficient Fine-tuning via Graph Neural Network**](http://arxiv.org/abs/2408.00290) <br> | arXiv | 2024-08 | [Github](https://github.com/yunche0/GA-Net/tree/master) |
-| ![Star](https://img.shields.io/github/stars/PhoenixZ810/MG-LLaVA.svg?style=social&label=Star) <br> [**MG-LLaVA: Towards Multi-Granularity Visual Instruction Tuning**](http://arxiv.org/abs/2406.17770) <br> | arXiv | 2024-06 | [Github](https://github.com/PhoenixZ810/MG-LLaVA) |
-| ![Star](https://img.shields.io/github/stars/alenai97/PEFT-MLLM.svg?style=social&label=Star) <br> [**An Empirical Study on Parameter-Efficient Fine-Tuning for MultiModal Large Language Models**](http://arxiv.org/abs/2406.05130) <br> | arXiv | 2024-06 | [Github](https://github.com/alenai97/PEFT-MLLM) |
-| ![Star](https://img.shields.io/github/stars/AIDC-AI/Parrot.svg?style=social&label=Star) <br> [**Parrot: Multilingual Visual Instruction Tuning**](http://arxiv.org/abs/2406.02539) <br> | arXiv | 2024-08 | [Github](https://github.com/AIDC-AI/Parrot) |
-| [**Learn from Downstream and Be Yourself in Multimodal Large Language Model Fine-Tuning**](http://arxiv.org/abs/2411.10928) <br> | arXiv | 2024-11 | [-](-) |
-| [**MM1.5: Methods, Analysis & Insights from Multimodal LLM Fine-tuning**](http://arxiv.org/abs/2409.20566) <br> | arXiv | 2024-09 | [-](-) |
-| [**Pilot: Building the Federated Multimodal Instruction Tuning Framework**](http://arxiv.org/abs/2501.13985) <br> | arXiv | 2025-01 | [-](-) |
-| [**EACO: Enhancing Alignment in Multimodal LLMs via Critical Observation**](http://arxiv.org/abs/2412.04903) <br> | arXiv | 2024-12 | [-](-) |
-| ![Star](https://img.shields.io/github/stars/-/-.svg?style=social&label=Star) <br> [**Visual Cue Enhancement and Dual Low-Rank Adaptation for Efficient Visual Instruction Fine-Tuning**](http://arxiv.org/abs/2411.12787) <br> | arXiv | 2024-12 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/nonwhy/PURE.svg?style=social&label=Star) <br> [**Perceive, Understand and Restore: Real-World Image Super-Resolution with Autoregressive Multimodal Generative Models**](https://openaccess.thecvf.com/content/ICCV2025/html/Wei_Perceive_Understand_and_Restore_Real-World_Image_Super-Resolution_with_Autoregressive_Multimodal_ICCV_2025_paper.html) <br> | ICCV | 2025-03 | [Github](https://github.com/nonwhy/PURE) |
+| [**SemHiTok: A Unified Image Tokenizer via Semantic-Guided Hierarchical Codebook for Multimodal Understanding and Generation**](http://arxiv.org/abs/2503.06764) <br> | arXiv | 2025-03 | [-](-) |
 
-<!-- #### <a id="optimization-and-enhancement">Optimization and Enhancement</a> -->
+#### <a id="14-parameter-efficient-fine-tuning-in-restoration">1.4 Parameter-Efficient Fine-Tuning in Restoration</a>
 
-## <a id="related-surveys-recommended">Related Surveys Recommended</a>
+##### <a id="141-lora--adapter-integration">1.4.1 LoRA & Adapter Integration</a>
 
-**A Survey on Large Language Models for Recommendation**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2305.19860)] <br />Jun. 2024<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 
-**A Survey of Large Language Models**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2303.18223)] <br />Oct. 2024<br />
+##### <a id="142-freezing-strategies">1.4.2 Freezing Strategies</a>
 
-**A Survey on Evaluation of Large Language Models**<br />
-DOI (Crossref) 2024. [[Paper](https://dl.acm.org/doi/10.1145/3641289)] <br />Jun. 2024<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 
-**MME-Survey: A Comprehensive Survey on Evaluation of Multimodal LLMs**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2411.15296)] <br />Nov. 2024<br />
+---
 
-**Natural Language Understanding and Inference with MLLM in Visual Question Answering: A Survey**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2411.17558)] <br />Nov. 2024<br />
+### <a id="2-vlm-as-auxiliary-for-low-level-vision">2. VLM as Auxiliary for Low-Level Vision</a>
 
-**Large Language Model-Brained GUI Agents: A Survey**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2411.18279)] <br />Nov. 2024<br />
+#### <a id="21-vlm-as-semantic-provider-text-guided-restoration">2.1 VLM as Semantic Provider: Text-Guided Restoration</a>
 
-**Visual Prompting in Multimodal Large Language Models: A Survey**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2409.15310)] <br />Sep. 2024<br />
+##### <a id="211-text-conditioned-injection">2.1.1 Text-Conditioned Injection</a>
 
-**A Survey of Camouflaged Object Detection and Beyond**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2408.14562)] <br />Aug. 2024<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/zhaolb4080/MTG-Fusion.svg?style=social&label=Star) <br> [**Multi-Text Guidance Is Important: Multi-Modality Image Fusion via Large Generative Vision-Language Model**](https://doi.org/10.1007/s11263-025-02409-3) <br> | IJCV | 2025-02 | [Github](https://github.com/zhaolb4080/MTG-Fusion) |
+| ![Star](https://img.shields.io/github/stars/striveAgain/MegaSR.svg?style=social&label=Star) <br> [**MegaSR: Mining Customized Semantics and Expressive Guidance for Image Super-Resolution**](https://arxiv.org/abs/2503.08096) <br> | arXiv | 2025-03 | [Github](https://github.com/striveAgain/MegaSR) |
+| [**The Power of Context: How Multimodality Improves Image Super-Resolution**](https://arxiv.org/abs/2503.14503) <br> | CVPR | 2025-03 | [-](-) |
 
-**MM-LLMs: Recent Advances in MultiModal Large Language Models**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2401.13601)] <br />May. 2024<br />
+##### <a id="212-language-driven-manipulation">2.1.2 Language-Driven Manipulation</a>
 
-**A Survey on Benchmarks of Multimodal Large Language Models**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2408.08632)] <br />Sep. 2024<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/SherryXTChen/Instruct-CLIP.svg?style=social&label=Star) <br> [**Instruct-CLIP: Improving Instruction-Guided Image Editing with Automated Data Refinement Using Contrastive Learning**](https://arxiv.org/abs/2503.18406) <br> | CVPR | 2025-03 | [Github](https://github.com/SherryXTChen/Instruct-CLIP) |
 
-**A Survey on Multimodal Benchmarks: In the Era of Large AI Models**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2409.18142)] <br />Sep. 2024<br />
+##### <a id="213-subject-aware-restoration">2.1.3 Subject-Aware Restoration</a>
 
-**Multimodal Image Synthesis and Editing: The Generative AI Era**<br />
-arXiv 2023. [[Paper](http://arxiv.org/abs/2112.13592)] <br />Aug. 2023<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/shuaizhengliu/InstructRestore.svg?style=social&label=Star) <br> [**InstructRestore: Region-Customized Image Restoration with Human Instructions**](https://arxiv.org/abs/2503.24357) <br> | arXiv | 2025-03 | [Github](https://github.com/shuaizhengliu/InstructRestore) |
+| [**PromptLNet: Region-Adaptive Aesthetic Enhancement via Prompt Guidance in Low-Light Enhancement Net**](https://arxiv.org/abs/2503.08276) <br> | arXiv | 2025-03 | [-](-) |
+| [**TSCnet: A Text-driven Semantic-level Controllable Framework for Customized Low-Light Image Enhancement**](http://arxiv.org/abs/2503.08168) <br> | Neurocomputing | 2025-03 | [Project](https://miaorain.github.io/lowlight09.github.io/) |
 
-**A Survey on Visual Transformer**<br />
-arXiv 2023. [[Paper](http://arxiv.org/abs/2012.12556)] <br />Jul. 2023<br />
+#### <a id="22-vlm-as-degradation-interpreter-visual-prompting--context">2.2 VLM as Degradation Interpreter: Visual-Prompting & Context</a>
 
-**Personalized Multimodal Large Language Models: A Survey**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2412.02142)] <br />Dec. 2024<br />
+##### <a id="221-degradation-classification">2.2.1 Degradation Classification</a>
 
-**Explainable and Interpretable Multimodal Large Language Models: A Comprehensive Survey**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2412.02104)] <br />Dec. 2024<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [**Multi-modal degradation feature learning for unified image restoration based on contrastive learning**](https://doi.org/10.1016/j.neucom.2024.128955) <br> | Neurocomputing | 2024-11 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/xianggkl/VLU-Net.svg?style=social&label=Star) <br> [**Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks**](https://arxiv.org/abs/2503.16930) <br> | CVPR | 2025-03 | [Github](https://github.com/xianggkl/VLU-Net) |
 
-**A Survey on Vision-Language-Action Models for Embodied AI**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2405.14093)] <br />Nov. 2024<br />
+##### <a id="222-description-based-restoration">2.2.2 Description-based Restoration</a>
 
-**Multimodal Learning With Transformers: A Survey**<br />
-IEEE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10123038)] <br />2023<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [**Leveraging vision-language prompts for real-world image restoration and enhancement**](https://www.sciencedirect.com/science/article/abs/pii/S1077314224003035) <br> | CVIU | 2024-11 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/igor-morawski/tmm-sem.svg?style=social&label=Star) <br> [**Leveraging Content and Context Cues for Low-Light Image Enhancement**](https://arxiv.org/abs/2412.07693) <br> | TMM | 2024-12 | [Github](https://github.com/igor-morawski/tmm-sem) |
+| [**RamIR: Reasoning and action prompting with Mamba for all-in-one image restoration**](https://link.springer.com/article/10.1007/s10489-024-06226-y) <br> | - | 2025-01 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/Linfeng-Tang/ControlFusion.svg?style=social&label=Star) <br> [**ControlFusion: A Controllable Image Fusion Network with Language-Vision Degradation Prompts**](https://arxiv.org/abs/2503.23356) <br> | arXiv | 2025-03 | [Github](https://github.com/Linfeng-Tang/ControlFusion) |
+| ![Star](https://img.shields.io/github/stars/RongxinL/CyclicPrompt.svg?style=social&label=Star) <br> [**Prompt to Restore, Restore to Prompt: Cyclic Prompting for Universal Adverse Weather Removal**](https://arxiv.org/abs/2503.09013) <br> | TIP | 2025-03 | [Github](https://github.com/RongxinL/CyclicPrompt) |
+| [**UniCoRN: Latent Diffusion-based Unified Controllable Image Restoration Network across Multiple Degradations**](https://arxiv.org/abs/2503.15868) <br> | WACV (Acc.) | 2025-03 | [Project](https://codejaeger.github.io/unicorn-gh/) |
 
-**A Survey of Multimodal Large Language Model from A Data-centric Perspective**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2405.16640)] <br />Dec. 2024<br />
+#### <a id="23-vlm-as-quality-evaluator-perception-and-assessment">2.3 VLM as Quality Evaluator: Perception and Assessment</a>
 
-**A Survey on All-in-One Image Restoration: Taxonomy, Evaluation and Future Trends**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2410.15067)] <br />Oct. 2024<br />
+##### <a id="231-no-reference-quality-assessment">2.3.1 No-Reference Quality Assessment</a>
 
-**Vision Transformers in Image Restoration: A Survey**<br />
-mdpi 2023. [[Paper](https://www.mdpi.com/1424-8220/23/5/2385)] <br />Jan. 2023<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/zhiyuanyou/DeQA-Score.svg?style=social&label=Star) <br> [**Teaching Large Language Models to Regress Accurate Image Quality Scores using Score Distribution**](https://arxiv.org/abs/2501.11561) <br> | CVPR | 2025-01 | [Github](https://github.com/zhiyuanyou/DeQA-Score) |
+| ![Star](https://img.shields.io/github/stars/JunFu1995/CLIP-DQA.svg?style=social&label=Star) <br> [**CLIP-DQA: Blindly Evaluating Dehazed Images from Global and Local Perspectives Using CLIP**](https://arxiv.org/abs/2502.01707) <br> | ISCAS | 2025-02 | [Github](https://github.com/JunFu1995/CLIP-DQA) |
 
-**Recent progress in image denoising: A training strategy perspective**<br />
- [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/10.1049/ipr2.12748)] <br />May. 2023<br />
 
-**Survey of different Large Language Model Architectures: Trends, Benchmarks, and Challenges**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2412.03220)] <br />Dec. 2024<br />
 
-**Survey of Large Multimodal Model Datasets, Application Categories and Taxonomy**<br />
-arXiv 2025. [[Paper](http://arxiv.org/abs/2412.17759)] <br />Feb. 2025<br />
+##### <a id="232-semantic-consistency-loss">2.3.2 Semantic Consistency Loss</a>
 
-**Image, Text, and Speech Data Augmentation using Multimodal LLMs for Deep Learning: A Survey**<br />
-arXiv 2025. [[Paper](http://arxiv.org/abs/2501.18648)] <br />Jan. 2025<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 
-**How to Bridge the Gap between Modalities: A Comprehensive Survey on Multi-modal Large Language Model**<br />
-arXiv 2023. [[Paper](https://arxiv.org/abs/2311.07594)] <br />Nov. 2023<br />
+##### <a id="233-feedback-loops">2.3.3 Feedback Loops</a>
 
-**Multimodal Large Language Models: A Survey**<br />
-IEEE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10386743)] <br />2023<br />
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 
-**Vision-Language Models for Vision Tasks: A Survey**<br />
-IEEE 2023. [[Paper](https://ieeexplore.ieee.org/abstract/document/10445007)] [[Github](https://github.com/jingyi0000/vlm_survey)] <br />2023<br />
+#### <a id="24-vlm-as-intelligent-controller-agent-based-frameworks">2.4 VLM as Intelligent Controller: Agent-Based Frameworks</a>
 
-**From Word Vectors to Multimodal Embeddings: Techniques, Applications, and Future Directions For Large Language Models**<br />
-arXiv 2024. [[Paper](http://arxiv.org/abs/2411.05036)] <br />Nov. 2024<br />
+##### <a id="241-motivation-as-intelligent-controller">2.4.1 Motivation as Intelligent Controller</a>
 
-<!-- ## <a id="awesome-datasets">Awesome Datasets</a>
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 
-### <a id="dehazing">Dehazing</a>
+##### <a id="242-tool-usage--orchestration">2.4.2 Tool Usage & Orchestration</a>
 
-### <a id="deblurring">Deblurring</a>
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/cilabuniba/i-dream-my-painting.svg?style=social&label=Star) <br> [**I Dream My Painting: Connecting MLLMs and Diffusion Models via Prompt Generation for Text-Guided Multi-Mask Inpainting**](https://arxiv.org/abs/2411.19050) <br> | WACV | 2024-11 | [Github](https://github.com/cilabuniba/i-dream-my-painting) |
+| [**Hybrid Agents for Image Restoration**](https://arxiv.org/abs/2503.10120) <br> | arXiv | 2025-03 | [-](-) |
+| [**Multi-Agent Image Restoration**](https://arxiv.org/abs/2503.09403) | arXiv | 2025-03 | [-](-) |
 
-### <a id="deraining">Deraining</a>
+##### <a id="243-iterative-refinement">2.4.3 Iterative Refinement</a>
 
-### <a id="desnowing">Desnowing</a>
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
 
-### <a id="denoising">Denoising</a>
+---
 
-### <a id="other">Other</a> -->
+### <a id="3-extended-applications">3. Extended Applications</a>
 
-## <a id="benchmarks-for-evaluation">Benchmarks for Evaluation</a>
+#### <a id="31-medical-image-processing">3.1 Medical Image Processing</a>
+
+##### <a id="311-biomedical-vlms">3.1.1 Biomedical VLMs</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [**PET Image Denoising via Text-Guided Diffusion: Integrating Anatomical Priors through Text Prompts**](https://arxiv.org/abs/2502.21260) <br> | arXiv | 2025-02 | [-](-) |
+
+
+##### <a id="312-ct-and-mri">3.1.2 CT and MRI</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [**A-IDE: Agent-Integrated Denoising Experts**](https://arxiv.org/abs/2503.16780) <br> | arXiv | 2025-03 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/Zi-YuanYang/SCAN-PhysFed.svg?style=social&label=Star) <br> [**Patient-Level Anatomy Meets Scanning-Level Physics: Personalized Federated Low-Dose CT Denoising Empowered by Large Language Model**](https://arxiv.org/abs/2503.00908) <br> | CVPR | 2025-03 | [Github](https://github.com/Zi-YuanYang/SCAN-PhysFed) |
+| [**TDMF: Text-Guided Denoising and Interactive Medical Image Fusion**](https://doi.org/10.1109/ICASSP49660.2025.10889309) <br> | ICASSP | 2025-04 | [-](-) |
+
+#### <a id="32-remote-sensing-data-processing">3.2 Remote Sensing Data Processing</a>
+
+##### <a id="321-spatial-domain-tasks">3.2.1 Spatial-domain Tasks</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+|[**Large Foundation Model Empowered Discriminative Underwater Image Enhancement**](https://ieeexplore.ieee.org/document/10824846) <br> | IEEE | 2025-01 | [Gitee](https://gitee.com/wanghaoupc/UIE_SAM) |
+| [**Semantic-Aware Guidance for Blind Super-Resolution of Remote Sensing Images**](https://dblp.org/rec/journals/lgrs/WuHW25.html) <br> | GRSL | 2025-01 | [-](-) |
+
+##### <a id="322-spectral-domain-tasks">3.2.2 Spectral-domain Tasks</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/ZhehuiWu/MP-HSIR.svg?style=social&label=Star) <br> [**MP-HSIR: A Multi-Prompt Framework for Universal Hyperspectral Image Restoration**](https://openaccess.thecvf.com/content/ICCV2025/html/Wu_MP-HSIR_A_Multi-Prompt_Framework_for_Universal_Hyperspectral_Image_Restoration_ICCV_2025_paper.html) <br> | ICCV | 2025-03 | [Github](https://github.com/ZhehuiWu/MP-HSIR) |
+
+#### <a id="33-other-extended-applications">3.3 Other Extended Applications</a>
+
+##### <a id="331-cad">3.3.1 CAD</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+
+##### <a id="332-video-processing-tasks">3.3.2 Video Processing Tasks</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [**Towards General-Purpose Video Reconstruction through Synergy of Grid-Splicing Diffusion and Large Language Models**](https://doi.org/10.1109/TCSVT.2025.3545795) <br> | TCSVT | 2025-03 | [-](-) |
+
+##### <a id="333-3d-processing-tasks">3.3.3 3D Processing Tasks</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+
+---
+
+## <a id="datasets">Datasets</a>
 
 |  Name  |   Paper  |   Link   |   Notes   |
 |:--------|:--------:|:--------:|:--------:|
-| **Q-Bench** | [Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision](http://arxiv.org/abs/2309.14181) | [repo](https://q-future.github.io/Q-Bench) | A holistic benchmark crafted to systematically evaluate potential abilities of MLLMs on three realms: low-level visual perception, low-level visual description, and overall visual quality assessment. |
-| **Q-Bench<sup>+</sup>** | [Q-Bench<sup>+</sup>: A Benchmark for Multi-modal Foundation Models on Low-level Vision from Single Images to Pairs](http://arxiv.org/abs/2402.07116) | [repo](https://github.com/Q-Future/Q-Bench) | A benchmark settings to emulate human language responses related to low-level vision: the low-level visual perception via visual question answering related to low-level attributes; and the low-level visual description, on evaluating MLLMs for low-level text descriptions. |
-| **HEIE** | [HEIE: MLLM-Based Hierarchical Explainable AIGC Image Implausibility Evaluator](http://arxiv.org/abs/2411.17261) | [repo](-) | A novel MLLM-Based Hierarchical Explainable image Implausibility Evaluator. |
-| **QL-Bench** | [Explore the Hallucination on Low-level Perception for MLLMs](http://arxiv.org/abs/2409.09748) | [repo](-) | - |
-| **MLLM-as-a-Judge** | [MLLM-as-a-Judge: Assessing Multimodal LLM-as-a-Judge with Vision-Language Benchmark](https://arxiv.org/abs/2402.04788) | [repo](https://github.com/Dongping-Chen/MLLM-Judge) | - |
-| **Q-BOOST** | [Q-BOOST: On Visual Quality Assessment Ability of Low-Level Multi-Modality Foundation Models](https://ieeexplore.ieee.org/abstract/document/10645451) | [repo](https://github.com/Q-Future/Q-Instruct/boost_qa) | A focused exploration of the visual quality assessment capabilities in low-level multi-modality foundation models, introducing Q-BOOST as a benchmark framework. |
-| **SEED-Bench** | [SEED-Bench: Benchmarking Multimodal LLMs with Generative Comprehension](https://arxiv.org/abs/2307.16125) | [repo](https://github.com/AILab-CVC/SEED-Bench) | A benchmark designed to evaluate the generative comprehension abilities of multimodal large language models across diverse tasks and datasets. |
-| **MIBench** | [MIBench: Evaluating Multimodal Large Language Models over Multiple Images](http://arxiv.org/abs/2407.15272) | [repo](-) | - |
-| **AICoderEval** | [AICoderEval: Improving AI Domain Code Generation of Large Language Models](http://arxiv.org/abs/2406.04712) | [repo](-) | - |
-| **MLe-Bench** | [MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering](https://aclanthology.org/2024.findings-acl.296) | [repo](-) | - |
+<!-- To be filled -->
 
-### <a id="metrics">Metrics</a>
+---
 
-- **Image Quality Assessment (IQA)**
-  - **PSNR (Peak Signal-to-Noise Ratio)** <br />
-PSNR is a metric based on pixel differences, measuring the Mean Squared Error (MSE) between the generated and real images. A higher PSNR value indicates better image quality.
-  - **SSIM (Structural Similarity Index Measure)** <br />
-SSIM is a metric based on the structural similarity of images, taking into account the similarities in luminance, contrast, and structure. An SSIM value closer to 1 indicates better image quality.
-  - **LPIPS (Learned Perceptual Image Patch Similarity)** <br />
-LPIPS is a perceptual similarity metric based on deep learning, which measures the perceptual difference between images by training convolutional neural networks. A smaller LPIPS value indicates better image quality.
-- **Perceptual Quality Assessment (PQA)**
-  - **NIQE (Naturalness Image Quality Evaluator)** <br />
-NIQE is a no-reference perceptual quality assessment metric that evaluates the realism of an image by analyzing its natural statistical characteristics. A lower NIQE value indicates that the image is closer to natural images.
-  - **BLIND (Blind/Referenceless Image Spatial Quality Evaluator)** <br />
-BLIND is a no-reference perceptual quality assessment metric that evaluates image quality by analyzing its spatial features. A lower BLIND/BIQ value indicates better image quality.
-  - **FR-IQA (Full-Reference Image Quality Assessment)** <br />
-FR-IQA is a full-reference perceptual quality assessment metric that evaluates the quality of generated images by comparing their perceptual differences with real images. Common FR-IQA metrics include LPIPS, MS-SSIM, etc.
-- **Structural Similarity Assessment (SSA)**
-  - **MS-SSIM (Multi-Scale Structural Similarity Index Measure)** <br />
-MS-SSIM is an extended version of SSIM that evaluates overall image quality by calculating structural similarity across multiple scales. An MS-SSIM value closer to 1 indicates better image quality.
-  - **VIF (Visual Information Fidelity)** <br />
-VIF is an information-theoretic metric that assesses image quality by measuring the visual information fidelity between the generated image and the real image. A higher VIF value indicates better image quality.
+## <a id="related-surveys-recommended">Related Surveys Recommended</a>
+
+<!-- To be filled -->
+
+---
+
+## <a id="others">Others</a>
+
+|  Title  |   Venue  |   Date   |   Code   |
+|:--------|:--------:|:--------:|:--------:|
+| [**Scene Text Detection in Foggy Weather Utilizing Knowledge Distillation of Diffusion Models**](https://doi.org/10.1109/LSP.2025.3540371) <br> | SPL | 2025-02 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/wisper12933/GA-Rollback.svg?style=social&label=Star) <br> [**Generator-Assistant Stepwise Rollback Framework for Large Language Model Agent**](https://arxiv.org/abs/2503.02519) <br> | arXiv | 2025-03 | [Github](https://github.com/wisper12933/GA-Rollback) |
+
+---
 
 ## <a id="reference">Reference</a>
-[Awesome-Multimodal-Large-Language-Models-by-BradyFU](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models)
-
+[Awesome-Multimodal-Large-Language-Models-by-BradyFU](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models-by-BradyFU)

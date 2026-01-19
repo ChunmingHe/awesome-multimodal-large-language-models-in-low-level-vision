@@ -119,6 +119,7 @@ Jan. 2025<br />
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/cswry/OSEDiff.svg?style=social&label=Star) <br> [**One-Step Effective Diffusion Network for Real-World Image Super-Resolution**](https://arxiv.org/abs/2406.08177) <br> | NeurIPS | 2024-06 | [Github](https://github.com/cswry/OSEDiff) |
 | [**Acquire and then Adapt: Squeezing out Text-to-Image Model for Image Restoration**](http://arxiv.org/abs/2504.15159) <br> | CVPR | 2025-04 | [-](-) |
 | [**Demystifying the Visual Quality Paradox in Multimodal Large Language Models**](https://arxiv.org/abs/2506.15645) <br> | arXiv | 2025-06 | [-](-) |
 | [**RDDM: Practicing RAW Domain Diffusion Model for Real-world Image Restoration**](https://arxiv.org/abs/2508.19154) <br> | arXiv | 2025-08 | [-](-) |
@@ -142,6 +143,7 @@ Jan. 2025<br />
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/cswry/SeeSR.svg?style=social&label=Star) <br> [**SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution**](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_SeeSR_Towards_Semantics-Aware_Real-World_Image_Super-Resolution_CVPR_2024_paper.html) <br> | CVPR | 2023-11 | [Github](https://github.com/cswry/SeeSR) |
 | ![Star](https://img.shields.io/github/stars/hejh8/CFWD.svg?style=social&label=Star) <br> [**Low-light Image Enhancement via CLIP-Fourier Guided Wavelet Diffusion**](https://arxiv.org/abs/2401.03788) <br> | TOMM | 2024-01 | [Github](https://github.com/hejh8/CFWD) |
 | ![Star](https://img.shields.io/github/stars/Zhaozixiang1228/IF-FILM.svg?style=social&label=Star) <br> [**Image Fusion via Vision-Language Model**](https://arxiv.org/abs/2402.02235) <br> | ICML | 2024-02 | [Github](https://github.com/Zhaozixiang1228/IF-FILM) |
 | ![Star](https://img.shields.io/github/stars/xiaogang00/pretrain_model_boost_restoration.svg?style=social&label=Star) <br> [**Boosting Image Restoration via Priors from Pre-trained Models**](https://openaccess.thecvf.com/content/CVPR2024/html/Xu_Boosting_Image_Restoration_via_Priors_from_Pre-trained_Models_CVPR_2024_paper.html) <br> | CVPR | 2024-03 | [Github](https://github.com/xiaogang00/pretrain_model_boost_restoration) |
@@ -149,6 +151,8 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/XunpengYi/Text-IF.svg?style=social&label=Star) <br> [**Text-IF: Leveraging Semantic Text Guidance for Degradation-Aware and Interactive Image Fusion**](https://openaccess.thecvf.com/content/CVPR2024/html/Yi_Text-IF_Leveraging_Semantic_Text_Guidance_for_Degradation-Aware_and_Interactive_Image_CVPR_2024_paper.html) <br> | CVPR | 2024-03 | [Github](https://github.com/XunpengYi/Text-IF) |
 | ![Star](https://img.shields.io/github/stars/qyp2000/XPSR.svg?style=social&label=Star) <br> [**XPSR: Cross-modal Priors for Diffusion-based Image Super-Resolution**](https://arxiv.org/abs/2403.05049) <br> | ECCV | 2024-03 | [Github](https://github.com/qyp2000/XPSR) |
 | ![Star](https://img.shields.io/github/stars/Algolzw/daclip-uir.svg?style=social&label=Star) <br> [**Photo-Realistic Image Restoration in the Wild with Controlled Vision-Language Models**](https://arxiv.org/abs/2404.09732) <br> | CVPRW | 2024-04 | [Github](https://github.com/Algolzw/daclip-uir) |
+| [**Unsupervised Image Prior via Prompt Learning and CLIP Semantic Guidance for Low-Light Image Enhancement**](https://arxiv.org/abs/2405.11478) <br> | CVPRW | 2024-05 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/zyhrainbow/SSP-IR.svg?style=social&label=Star) <br> [**SSP-IR: Semantic and Structure Priors for Diffusion-based Realistic Image Restoration**](https://arxiv.org/abs/2407.03635) <br> | TCSVT | 2024-07 | [Github](https://github.com/zyhrainbow/SSP-IR) |
 | ![Star](https://img.shields.io/github/stars/zhaolb4080/MTG-Fusion.svg?style=social&label=Star) <br> [**Multi-Text Guidance Is Important: Multi-Modality Image Fusion via Large Generative Vision-Language Model**](https://doi.org/10.1007/s11263-025-02409-3) <br> | IJCV | 2025-02 | [Github](https://github.com/zhaolb4080/MTG-Fusion) |
 | ![Star](https://img.shields.io/github/stars/striveAgain/MegaSR.svg?style=social&label=Star) <br> [**MegaSR: Mining Customized Semantics and Expressive Guidance for Image Super-Resolution**](https://arxiv.org/abs/2503.08096) <br> | arXiv | 2025-03 | [Github](https://github.com/striveAgain/MegaSR) |
 | [**The Power of Context: How Multimodality Improves Image Super-Resolution**](https://arxiv.org/abs/2503.14503) <br> | CVPR | 2025-03 | [-](-) |
@@ -181,6 +185,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/mv-lab/InstructIR.svg?style=social&label=Star) <br> [**InstructIR: High-Quality Image Restoration Following Human Instructions**](https://arxiv.org/abs/2401.16468) <br> | ECCV | 2024-01 | [Github](https://github.com/mv-lab/InstructIR) |
 | ![Star](https://img.shields.io/github/stars/KVGandikota/Text-guidedSR.svg?style=social&label=Star) <br> [**Text-guided Explorable Image Super-resolution**](https://arxiv.org/abs/2403.01124) <br> | CVPR | 2024-03 | [Github](https://github.com/KVGandikota/Text-guidedSR) |
 | ![Star](https://img.shields.io/github/stars/RotsteinNoam/Paint-by-Inpaint.svg?style=social&label=Star) <br> [**Paint by Inpaint: Learning to Add Image Objects by Removing Them First**](https://arxiv.org/abs/2404.18212) <br> | CVPR | 2024-04 | [Github](https://github.com/RotsteinNoam/Paint-by-Inpaint) |
+| [**Brush2Prompt: Contextual Prompt Generator for Object Inpainting**](https://openaccess.thecvf.com/content/CVPR2024/html/Chiu_Brush2Prompt_Contextual_Prompt_Generator_for_Object_Inpainting_CVPR_2024_paper.html) <br> | CVPR | 2024-06 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/SherryXTChen/Instruct-CLIP.svg?style=social&label=Star) <br> [**Instruct-CLIP: Improving Instruction-Guided Image Editing with Automated Data Refinement Using Contrastive Learning**](https://arxiv.org/abs/2503.18406) <br> | CVPR | 2025-03 | [Github](https://github.com/SherryXTChen/Instruct-CLIP) |
 | [**Instruct2See: Learning to Remove Any Obstructions Across Distributions**](https://arxiv.org/abs/2505.17649) <br> | ICML | 2025-05 | [Project](https://jhscut.github.io/Instruct2See/) |
 | [**MIND-Edit: MLLM Insight-Driven Editing via Language-Vision Projection**](https://arxiv.org/abs/2505.19149) <br> | arXiv | 2025-05 | [-](-) |
@@ -209,6 +214,8 @@ Jan. 2025<br />
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/puppy210/DaLPSR.svg?style=social&label=Star) <br> [**DaLPSR: Leverage Degradation-Aligned Language Prompt for Real-World Image Super-Resolution**](https://arxiv.org/abs/2406.16477) <br> | arXiv | 2024-06 | [Github](https://github.com/puppy210/DaLPSR) |
+| [**DAP-LED: Learning Degradation-Aware Priors with CLIP for Joint Low-light Enhancement and Deblurring**](http://arxiv.org/abs/2409.13496) <br> | ICRA | 2024-09 | [-](-) |
 | [**Multi-modal degradation feature learning for unified image restoration based on contrastive learning**](https://doi.org/10.1016/j.neucom.2024.128955) <br> | Neurocomputing | 2024-11 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/xianggkl/VLU-Net.svg?style=social&label=Star) <br> [**Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks**](https://arxiv.org/abs/2503.16930) <br> | CVPR | 2025-03 | [Github](https://github.com/xianggkl/VLU-Net) |
 | [**DA2Diff: Exploring Degradation-aware Adaptive Diffusion Priors for All-in-One Weather Restoration**](https://arxiv.org/abs/2504.05135) <br> | arXiv | 2025-04 | [-](-) |
@@ -226,6 +233,9 @@ Jan. 2025<br />
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [**LLMRA: Multi-modal Large Language Model based Restoration Assistant**](https://arxiv.org/abs/2401.11401) <br> | arXiv | 2024-01 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/zyhrainbow/Diff-Restorer.svg?style=social&label=Star) <br> [**Diff-Restorer: Unleashing Visual Prompts for Diffusion-based Universal Image Restoration**](https://arxiv.org/abs/2407.03636) <br> | arXiv | 2024-07 | [Github](https://github.com/zyhrainbow/Diff-Restorer) |
+| [**Training-Free Large Model Priors for Multiple-in-One Image Restoration**](https://arxiv.org/abs/2407.13181) <br> | arXiv | 2024-07 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/IntMeGroup/UniProcessor.svg?style=social&label=Star) <br> [**UniProcessor: A Text-induced Unified Low-level Image Processor**](https://arxiv.org/abs/2407.20928) <br> | ECCV | 2024-07 | [Github](https://github.com/IntMeGroup/UniProcessor) |
 | ![Star](https://img.shields.io/github/stars/sudraj2002/AWRaCLe.svg?style=social&label=Star) <br> [**AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning**](https://arxiv.org/abs/2409.00263) <br> | AAAI | 2024-08 | [Github](https://github.com/sudraj2002/AWRaCLe) |
 | [**Leveraging vision-language prompts for real-world image restoration and enhancement**](https://www.sciencedirect.com/science/article/abs/pii/S1077314224003035) <br> | CVIU | 2024-11 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/igor-morawski/tmm-sem.svg?style=social&label=Star) <br> [**Leveraging Content and Context Cues for Low-Light Image Enhancement**](https://arxiv.org/abs/2412.07693) <br> | TMM | 2024-12 | [Github](https://github.com/igor-morawski/tmm-sem) |
@@ -256,6 +266,8 @@ Jan. 2025<br />
 |:--------|:--------:|:--------:|:--------:|
 | ![Star](https://img.shields.io/github/stars/miccunifi/QualiCLIP.svg?style=social&label=Star) <br> [**Quality-Aware Image-Text Alignment for Opinion-Unaware Image Quality Assessment (QualiCLIP)**](https://arxiv.org/abs/2403.11176) <br> | arXiv | 2024-03 | [Github](https://github.com/miccunifi/QualiCLIP) |
 | ![Star](https://img.shields.io/github/stars/XPixelGroup/DepictQA.svg?style=social&label=Star) <br> [**Descriptive Image Quality Assessment in the Wild**](https://arxiv.org/abs/2405.18842) <br> | arXiv | 2024-05 | [Github](https://github.com/XPixelGroup/DepictQA) |
+| ![Star](https://img.shields.io/github/stars/zht8506/UniQA.svg?style=social&label=Star) <br> [**UniQA: Unified Vision-Language Pre-training for Image Quality and Aesthetic Assessment**](https://arxiv.org/abs/2406.01069) <br> | arXiv | 2024-06 | [Github](https://github.com/zht8506/UniQA) |
+| ![Star](https://img.shields.io/github/stars/wzczc/CLIP-AGIQA.svg?style=social&label=Star) <br> [**CLIP-AGIQA: Boosting the Performance of AI-Generated Image Quality Assessment with CLIP**](https://arxiv.org/abs/2408.15098) <br> | ICPR | 2024-08 | [Github](https://github.com/wzczc/CLIP-AGIQA) |
 | ![Star](https://img.shields.io/github/stars/LowLevelAI/GPP-LLIE.svg?style=social&label=Star) <br> [**Low-Light Image Enhancement via Generative Perceptual Priors**](https://arxiv.org/abs/2412.20916) <br> | AAAI | 2024-12 | [Github](https://github.com/LowLevelAI/GPP-LLIE) |
 | ![Star](https://img.shields.io/github/stars/zhiyuanyou/DeQA-Score.svg?style=social&label=Star) <br> [**Teaching Large Language Models to Regress Accurate Image Quality Scores using Score Distribution**](https://arxiv.org/abs/2501.11561) <br> | CVPR | 2025-01 | [Github](https://github.com/zhiyuanyou/DeQA-Score) |
 | ![Star](https://img.shields.io/github/stars/JunFu1995/CLIP-DQA.svg?style=social&label=Star) <br> [**CLIP-DQA: Blindly Evaluating Dehazed Images from Global and Local Perspectives Using CLIP**](https://arxiv.org/abs/2502.01707) <br> | ISCAS | 2025-02 | [Github](https://github.com/JunFu1995/CLIP-DQA) |
@@ -286,6 +298,7 @@ Jan. 2025<br />
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/ChenzhaoNju/CCLGAN.svg?style=social&label=Star) <br> [**Cycle Contrastive Adversarial Learning for Unsupervised image Deraining**](https://arxiv.org/abs/2407.11750) <br> | arXiv | 2024-07 | [Github](https://github.com/ChenzhaoNju/CCLGAN) |
 | [**Underwater Diffusion Attention Network with Contrastive Language-Image Joint Learning for Underwater Image Enhancement**](https://arxiv.org/abs/2505.19895) <br> | arXiv | 2025-05 | [-](-) |
 | [**Unveiling the Underwater World: CLIP Perception Model-Guided Underwater Image Enhancement**](https://doi.org/10.1016/j.patcog.2025.111395) <br> | PR | 2025-06 | [-](-) |
 | [**One-Step Diffusion-based Real-World Image Super-Resolution with Visual Perception Distillation**](https://arxiv.org/abs/2506.02605) <br> | arXiv | 2025-06 | [-](-) |
@@ -296,6 +309,8 @@ Jan. 2025<br />
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/Troivyn/HazeCLIP.svg?style=social&label=Star) <br> [**HazeCLIP: Towards Language Guided Real-World Image Dehazing**](https://arxiv.org/abs/2407.13719) <br> | ICASSP | 2024-07 | [Github](https://github.com/Troivyn/HazeCLIP) |
+| ![Star](https://img.shields.io/github/stars/jiaqixuac/WResVLM.svg?style=social&label=Star) <br> [**Towards Real-World Adverse Weather Image Restoration: Enhancing Clearness and Semantics with Vision-Language Models**](https://arxiv.org/abs/2409.02101) <br> | ECCV | 2024-09 | [Github](https://github.com/jiaqixuac/WResVLM) |
 | [**DSPO: Direct Semantic Preference Optimization for Real-World Image Super-Resolution**](https://arxiv.org/abs/2504.15176) <br> | arXiv | 2025-04 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/alexlai2860/SnowMaster.svg?style=social&label=Star) <br> [**SnowMaster: Comprehensive Real-world Image Desnowing via MLLM with Multi-Model Feedback Optimization**](https://openaccess.thecvf.com/content/CVPR2025/html/Lai_SnowMaster_Comprehensive_Real-world_Image_Desnowing_via_MLLM_with_Multi-Model_Feedback_CVPR_2025_paper.html) <br> | CVPR | 2025-06 | [Github](https://github.com/alexlai2860/SnowMaster) |
 | ![Star](https://img.shields.io/github/stars/TIGER-AI-Lab/EditReward.svg?style=social&label=Star) <br> [**EditReward: A Human-Aligned Reward Model for Instruction-Guided Image Editing**](https://arxiv.org/abs/2509.26346) <br> | arXiv | 2025-09 | [Github](https://github.com/TIGER-AI-Lab/EditReward) |
@@ -317,6 +332,8 @@ Jan. 2025<br />
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | [**Incorporating Visual Experts to Resolve the Information Loss in Multimodal Large Language Models**](https://arxiv.org/abs/2401.03105) <br> | IJCAI | 2024-01 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/TencentARC/BrushNet.svg?style=social&label=Star) <br> [**Image Inpainting Models are Effective Tools for Instruction-guided Image Editing**](https://arxiv.org/abs/2407.13139) <br> | CVPRW | 2024-07 | [Github](https://github.com/TencentARC/BrushNet/tree/main/InstructionGuidedEditing) |
+| [**RestoreAgent: Autonomous Image Restoration Agent via Multimodal Large Language Models**](https://arxiv.org/abs/2407.18035) <br> | NeurIPS | 2024-07 | [-](-) |
 | [**LLMCO4MR: LLMs-Aided Neural Combinatorial Optimization for Ancient Manuscript Restoration from Fragments with Case Studies on Dunhuang**](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/09585.pdf) <br> | ECCV | 2024-11 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/cilabuniba/i-dream-my-painting.svg?style=social&label=Star) <br> [**I Dream My Painting: Connecting MLLMs and Diffusion Models via Prompt Generation for Text-Guided Multi-Mask Inpainting**](https://arxiv.org/abs/2411.19050) <br> | WACV | 2024-11 | [Github](https://github.com/cilabuniba/i-dream-my-painting) |
 | [**Hybrid Agents for Image Restoration**](https://arxiv.org/abs/2503.10120) <br> | arXiv | 2025-03 | [-](-) |
@@ -359,6 +376,8 @@ Jan. 2025<br />
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
+| ![Star](https://img.shields.io/github/stars/FreedomIntelligence/HuatuoGPT-Vision.svg?style=social&label=Star) <br> [**HuatuoGPT-Vision: Towards Injecting Medical Visual Knowledge into Multimodal LLMs at Scale**](https://arxiv.org/abs/2406.19280) <br> | EMNLP | 2024-06 | [Github](https://github.com/FreedomIntelligence/HuatuoGPT-Vision) |
+| ![Star](https://img.shields.io/github/stars/RyannChenOO/MLeVLM.svg?style=social&label=Star) <br> [**MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering**](https://aclanthology.org/2024.findings-acl.296/) <br> | ACL | 2024-08 | [Github](https://github.com/RyannChenOO/MLeVLM) |
 | [**PET Image Denoising via Text-Guided Diffusion: Integrating Anatomical Priors through Text Prompts**](https://arxiv.org/abs/2502.21260) <br> | arXiv | 2025-02 | [-](-) |
 | [**AgentPolyp: Accurate Polyp Segmentation via Image Enhancement Agent**](https://arxiv.org/abs/2504.10978) <br> | SPL | 2025-04 | [-](-) |
 
@@ -368,6 +387,7 @@ Jan. 2025<br />
 |:--------|:--------:|:--------:|:--------:|
 | [**Controllable Text-to-Image Synthesis for Multi-Modality MR Images**](https://openaccess.thecvf.com/content/WACV2024/html/Kim_Controllable_Text-to-Image_Synthesis_for_Multi-Modality_MR_Images_WACV_2024_paper.html) <br> | WACV | 2024-01 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/hao1635/LEDA.svg?style=social&label=Star) <br> [**Low-dose CT Denoising with Language-engaged Dual-space Alignment**](https://arxiv.org/abs/2403.06128) <br> | arXiv | 2024-03 | [Github](https://github.com/hao1635/LEDA) |
+| [**Dual-Domain CLIP-Assisted Residual Optimization Perception Model for Metal Artifact Reduction**](https://arxiv.org/abs/2408.14342) <br> | TRPMS | 2024-08 | [-](-) |
 | [**A-IDE: Agent-Integrated Denoising Experts**](https://arxiv.org/abs/2503.16780) <br> | arXiv | 2025-03 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/Zi-YuanYang/SCAN-PhysFed.svg?style=social&label=Star) <br> [**Patient-Level Anatomy Meets Scanning-Level Physics: Personalized Federated Low-Dose CT Denoising Empowered by Large Language Model**](https://arxiv.org/abs/2503.00908) <br> | CVPR | 2025-03 | [Github](https://github.com/Zi-YuanYang/SCAN-PhysFed) |
 | [**TDMF: Text-Guided Denoising and Interactive Medical Image Fusion**](https://doi.org/10.1109/ICASSP49660.2025.10889309) <br> | ICASSP | 2025-04 | [-](-) |
@@ -407,6 +427,8 @@ Jan. 2025<br />
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
 | ![Star](https://img.shields.io/github/stars/jianzongwu/Language-Driven-Video-Inpainting.svg?style=social&label=Star) <br> [**Towards Language-Driven Video Inpainting via Multimodal Large Language Models**](https://arxiv.org/abs/2401.10226) <br> | CVPR | 2024-01 | [Github](https://github.com/jianzongwu/Language-Driven-Video-Inpainting) |
+| [**Triplane-Smoothed Video Dehazing with CLIP-Enhanced Generalization**](https://link.springer.com/article/10.1007/s11263-024-02161-0) <br> | IJCV | 2024-08 | [-](-) |
+| [**Universal Video Face Restoration Method Based on Vision-Language Model**](https://proceedings.mlr.press/v260/xu25a.html) <br> | ACML | 2024-09 | [-](-) |
 | [**Towards General-Purpose Video Reconstruction through Synergy of Grid-Splicing Diffusion and Large Language Models**](https://doi.org/10.1109/TCSVT.2025.3545795) <br> | TCSVT | 2025-03 | [-](-) |
 | [**Grounding Degradations in Natural Language for All-In-One Video Restoration**](https://arxiv.org/abs/2507.14851) <br> | arXiv | 2025-07 | [-](-) |
 | [**When MLLMs Meet Compression Distortion: A Coding Paradigm Tailored to MLLMs**](https://arxiv.org/abs/2509.24258) <br> | arXiv | 2025-09 | [-](-) |
@@ -448,6 +470,10 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/ByungKwanLee/CoLLaVO.svg?style=social&label=Star) <br> [**CoLLaVO: Crayon Large Language and Vision mOdel**](https://arxiv.org/abs/2402.11248) <br> | arXiv | 2024-02 | [Github](https://github.com/ByungKwanLee/CoLLaVO) |
 | ![Star](https://img.shields.io/github/stars/liyongqi67/GRACE.svg?style=social&label=Star) <br> [**Generative Cross-Modal Retrieval: Memorizing Images in Multimodal Language Models for Retrieval and Beyond**](https://aclanthology.org/2024.acl-long.639/) <br> | ACL | 2024-02 | [Github](https://github.com/liyongqi67/GRACE) |
 | ![Star](https://img.shields.io/github/stars/microsoft/MMCTAgent.svg?style=social&label=Star) <br> [**MMCTAgent: Multi-modal Critical Thinking Agent Framework for Complex Visual Reasoning**](https://arxiv.org/abs/2405.18358) <br> | NeurIPSW | 2024-05 | [Github](https://github.com/microsoft/MMCTAgent) |
+| ![Star](https://img.shields.io/github/stars/lxtGH/OMG-Seg.svg?style=social&label=Star) <br> [**OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding**](https://arxiv.org/abs/2406.19389) <br> | NeurIPS | 2024-06 | [Github](https://github.com/lxtGH/OMG-Seg) |
+| ![Star](https://img.shields.io/github/stars/zhoushen1/MEASNet.svg?style=social&label=Star) <br> [**Multi-Expert Adaptive Selection: Task-Balancing for All-in-One Image Restoration**](https://arxiv.org/abs/2407.19139) <br> | arXiv | 2024-07 | [Github](https://github.com/zhoushen1/MEASNet) |
+| ![Star](https://img.shields.io/github/stars/anguyen8/vision-llms-are-blind.svg?style=social&label=Star) <br> [**Vision Language Models Are Blind: Failing to Translate Detailed Visual Features into Words**](https://arxiv.org/abs/2407.06581) <br> | ACCV | 2024-07 | [Github](https://github.com/anguyen8/vision-llms-are-blind) |
+| ![Star](https://img.shields.io/github/stars/chxy95/GenLV.svg?style=social&label=Star) <br> [**Learning A Low-Level Vision Generalist via Visual Task Prompt**](https://arxiv.org/abs/2408.08601) <br> | ACM MM | 2024-08 | [Github](https://github.com/chxy95/GenLV) |
 | [**Scene Text Detection in Foggy Weather Utilizing Knowledge Distillation of Diffusion Models**](https://doi.org/10.1109/LSP.2025.3540371) <br> | SPL | 2025-02 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/wisper12933/GA-Rollback.svg?style=social&label=Star) <br> [**Generator-Assistant Stepwise Rollback Framework for Large Language Model Agent**](https://arxiv.org/abs/2503.02519) <br> | arXiv | 2025-03 | [Github](https://github.com/wisper12933/GA-Rollback) |
 | [**Why Compress What You Can Generate? When GPT-4o Generation Ushers in Image Compression Fields**](https://arxiv.org/abs/2504.21814) <br> | ICCVW | 2025-04 | [-](-) |

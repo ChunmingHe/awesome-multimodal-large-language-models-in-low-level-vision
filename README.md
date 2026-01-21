@@ -53,7 +53,7 @@
         - [3.3.3 3D Processing Tasks](#333-3d-processing-tasks)
   - [Datasets](#datasets)
   - [Related Surveys Recommended](#related-surveys-recommended)
-  - [Reference](#reference)
+  - [Other Awesome VLM Papers](#others)
 
 ## <a id="latest-works-recommended">Latest Works Recommended</a>
 
@@ -513,19 +513,50 @@ Jan. 2025<br />
 
 ## <a id="datasets">Datasets</a>
 
-|  Name  |   Paper  |   Link   |   Notes   |
-|:--------|:--------:|:--------:|:--------:|
-<!-- To be filled -->
+| Task | Dataset | Size | Repo / Download | Description |
+|---|---|---:|---|---|
+| SR | [DIV2K](https://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/papers/Agustsson_NTIRE_2017_Challenge_CVPR_2017_paper.pdf) | 900/100 | [Download](https://data.vision.ee.ethz.ch/cvl/DIV2K/) | High-resolution natural images for super-resolution with synthetic degradations. |
+| SR | [RealSR](https://arxiv.org/abs/1904.00523) | 595 | [Repo](https://github.com/csjcai/RealSR) | Real-captured paired low-resolution and high-resolution images using focal-length changes. |
+| SR | [DRealSR](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123530103.pdf) | 2,507 | [Repo](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution) | Real-world super-resolution pairs collected across indoor and outdoor scenes. |
+| LLIE | [LOLv1](https://arxiv.org/abs/1808.04560) | 585/15 | [Download](https://daooshee.github.io/BMVC2018website/) | Paired low-light and normal-light real images for low-light enhancement. |
+| LLIE | [MIT-Adobe FiveK](https://people.csail.mit.edu/vladb/photoadjust/photoadjust.pdf) | 25,000 | [Download](https://data.csail.mit.edu/graphics/fivek/) | Expert-retouched photo pairs for illumination and tone related enhancement tasks. |
+| LLIE | [LOLv2](https://ieeexplore.ieee.org/document/9371946) | 1,589/200 | [Repo](https://github.com/flyywh/SGM-Low-Light) | Combined real and synthetic paired data for low-light enhancement. |
+| Dehaze | [RESIDE](https://arxiv.org/abs/1712.04143) | 13,000/990 | [Repo](https://github.com/Boyiliee/RESIDE-dataset-link) | Dehazing benchmark including synthetic and real-world subsets. |
+| Dehaze | [NH-Haze](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Ancuti_NTIRE_2020_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2020_paper.pdf) | 55 | [Download](https://data.vision.ee.ethz.ch/cvl/ntire20/nh-haze/) | Real paired outdoor images with non-homogeneous haze. |
+| Dehaze | [Haze-4K](https://dl.acm.org/doi/10.1145/3474085.3475655) | 4,000 | [Repo](https://github.com/liuye123321/DMT-Net) | Synthetic 4K dehazing pairs with auxiliary physical annotations. |
+| Inpainting | [CelebA](https://openaccess.thecvf.com/content_iccv_2015/papers/Liu_Deep_Learning_Face_ICCV_2015_paper.pdf) | 200,000 | [Download](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) | Large-scale face dataset used for face-centric restoration and inpainting. |
+| Inpainting | [CelebA-HQ](https://arxiv.org/abs/1710.10196) | 30,000 | [Repo](https://github.com/willylulu/celeba-hq-modified) | High-quality face images derived from CelebA for high-fidelity restoration. |
+| Inpainting, Derain | [MSCOCO](https://arxiv.org/abs/1405.0312) | 328,124 | [Download](https://cocodataset.org/#download) | Large-scale natural images with segmentation annotations for generic restoration and editing. |
+| Derain | [Rain100H](https://openaccess.thecvf.com/content_cvpr_2017/papers/Yang_Deep_Joint_Rain_CVPR_2017_paper.pdf) | 1,800/100 | [Download](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html) | Synthetic heavy-rain streak pairs for supervised deraining. |
+| Derain | [RainDrop](https://openaccess.thecvf.com/content_cvpr_2018/papers/Qian_Attentive_Generative_Adversarial_CVPR_2018_paper.pdf) | 861/239 | [Repo](https://github.com/rui1996/DeRaindrop) | Real paired images with adherent raindrops for deraining and restoration. |
+| Deblur | [GoPro](https://openaccess.thecvf.com/content_cvpr_2017/papers/Nah_Deep_Multi-Scale_Convolutional_CVPR_2017_paper.pdf) | 2,103/1,111 | [Download](https://seungjunnah.github.io/Datasets/gopro) | Motion blur benchmark synthesized from high-frame-rate video frames. |
+| Deblur | [RealBlur](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700188.pdf) | 3,758/980 | [Repo](https://github.com/rimchang/RealBlur) | Real paired short-exposure and long-exposure images for motion deblurring. |
+| Deblur | [HIDE](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shen_Human-Aware_Motion_Deblurring_ICCV_2019_paper.pdf) | 8,422 | [Repo](https://github.com/joanshen0508/HA_deblur) | Human-centered motion deblurring dataset with complex dynamic motion. |
+| CT denoising | [2016 NIH-AAPM-Mayo](https://pubmed.ncbi.nlm.nih.gov/29027235/) | 5,936 | [Download](https://www.cancerimagingarchive.net/collection/ldct-and-projection-data/) | Low-dose CT dataset used for dose reduction and denoising research. |
+| CT denoising | [Mayo-2016](https://pubmed.ncbi.nlm.nih.gov/29027235/) | 4,800/1,136 | [Download](https://www.aapm.org/grandchallenge/lowdosect/) | Challenge dataset used for low-dose CT denoising and reconstruction. |
+| CT denoising | [Mayo-2020](https://pubmed.ncbi.nlm.nih.gov/29027235/) | 2,400/580 | [Download](https://www.kaggle.com/datasets/tridibjyotidas/mayo-2020-preprocessed/data) | Preprocessed low-dose CT dataset for training and evaluation. |
+
 
 ---
 
 ## <a id="related-surveys-recommended">Related Surveys Recommended</a>
 
-<!-- To be filled -->
+|  Title  |   Venue  |   Date   |   Code   |  Note  |
+|:--------|:--------:|:--------:|:--------:|:-------|
+| ![Star](https://img.shields.io/github/stars/ChunmingHe/awesome-diffusion-models-in-low-level-vision.svg?style=social&label=Star) <br> [**Diffusion Models in Low-Level Vision: A Survey**](https://arxiv.org/abs/2406.11138) <br> | TPAMI | 2024-06 | [Repo](https://github.com/ChunmingHe/awesome-diffusion-models-in-low-level-vision) | Diffusion-based methods for low-level vision, including task formulations, architectures, and training design patterns. |
+| ![Star](https://img.shields.io/github/stars/Harbinzzy/All-in-One-Image-Restoration-Survey.svg?style=social&label=Star) <br> [**A Survey on All-in-One Image Restoration: Taxonomy, Methods, and Future Directions**](https://arxiv.org/abs/2410.15067) <br> | arXiv | 2024-10 | [Repo](https://github.com/Harbinzzy/All-in-One-Image-Restoration-Survey) | All-in-one image restoration models covering multi-task, multi-degradation, unified training, and evaluation protocols. |
+| ![Star](https://img.shields.io/github/stars/tamlhp/awesome-instructional-editing.svg?style=social&label=Star) <br> [**Instruction Guided Editing Controls for Images and Multimedia: A Survey in the Era of Large Language Models**](https://arxiv.org/abs/2411.09955) <br> | arXiv | 2024-11 | [Repo](https://github.com/tamlhp/awesome-instructional-editing) | Instruction-driven image and multimedia editing, covering control types, model families, and evaluation for edit fidelity and consistency. |
+| ![Star](https://img.shields.io/github/stars/jingyi0000/VLM_survey.svg?style=social&label=Star) <br> [**Vision-Language Models for Vision Tasks: A Survey**](https://arxiv.org/abs/2304.00685) <br> | TPAMI | 2023-04 | [Repo](https://github.com/jingyi0000/VLM_survey) | VLM methodology for vision tasks, including pretraining, transfer learning, distillation, datasets, and benchmarks. |
+| ![Star](https://img.shields.io/github/stars/zli12321/Vision-Language-Models-Overview.svg?style=social&label=Star) <br> [**A Survey of State of the Art Large Vision Language Models: Alignment, Benchmark, Evaluations and Challenges**](https://arxiv.org/abs/2501.02189) <br> | CVPRW | 2025-01 | [Repo](https://github.com/zli12321/Vision-Language-Models-Overview) | LVLM design and evaluation, focusing on alignment, benchmark suites, failure modes, and measurement practices. |
+| ![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) <br> [**A Survey on Multimodal Large Language Models**](https://arxiv.org/abs/2306.13549) <br> | NSR | 2023-06 | [Repo](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | Core MLLM architectures, training data, instruction tuning, evaluation, and common issues such as hallucination. |
+| [**Vision Language Models: A Survey of 26K Papers**](https://arxiv.org/abs/2510.09586) <br> | arXiv | 2025-10 | [-](-) | Trend analysis and taxonomy at scale, summarizing research directions from a large paper collection. |
+| [**Exploring the Frontier of Vision-Language Models: A Survey of Current Methodologies and Future Directions**](https://arxiv.org/abs/2404.07214) <br> | arXiv | 2024-02 | [-](-) | Broad overview of VLM model families, training paradigms, and benchmarks, with an emphasis on capabilities and limitations. |
+| [**Vision Encoders in Vision-Language Models: A Survey**](https://jina.ai/vision-encoder-survey.pdf) <br> | Tech Report | 2025-12 | [-](-) | Vision encoder design choices for VLMs, including architecture families, scaling trends, and practical tradeoffs. |
+
 
 ---
 
-## <a id="others">Others</a>
+## <a id="others">Other Awesome VLM Papers</a>
 
 |  Title  |   Venue  |   Date   |   Code   |
 |:--------|:--------:|:--------:|:--------:|
@@ -558,8 +589,3 @@ Jan. 2025<br />
 | [**Clear Roads, Clear Vision: Advancements in Multi-Weather Restoration for Smart Transportation**](https://arxiv.org/abs/2510.09228) <br> | arXiv | 2025-10 | [Github](https://github.com/ChaudharyUPES/) |
 | ![Star](https://img.shields.io/github/stars/RitAreaSciencePark/physics-informed-stm-restoration.svg?style=social&label=Star) <br> [**Generative Image Restoration and Super-Resolution using Physics-Informed Synthetic Data for Scanning Tunneling Microscopy**](https://arxiv.org/abs/2510.25921) <br> | arXiv | 2025-10 | [Github](https://github.com/RitAreaSciencePark/physics-informed-stm-restoration) |
 | [**DiffSeg30k: A Multi-Turn Diffusion Editing Benchmark for Localized AIGC Detection**](https://arxiv.org/abs/2511.19111) <br> | arXiv | 2025-11 | [HuggingFace](https://huggingface.co/datasets/Chaos2629/Diffseg30k) |
-
----
-
-## <a id="reference">Reference</a>
-[Awesome-Multimodal-Large-Language-Models-by-BradyFU](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models-by-BradyFU)

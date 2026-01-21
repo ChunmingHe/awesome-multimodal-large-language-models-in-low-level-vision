@@ -376,9 +376,6 @@ Jan. 2025<br />
 
 ##### <a id="241-motivation-as-intelligent-controller">2.4.1 Motivation as Intelligent Controller</a>
 
-|  Title  |   Venue  |   Date   |   Code   |
-|:--------|:--------:|:--------:|:--------:|
-
 ##### <a id="242-tool-usage--orchestration">2.4.2 Tool Usage & Orchestration</a>
 
 |  Title  |   Venue  |   Date   |   Code   |

@@ -4,7 +4,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2026/01/18 ]</b></p>
+<p align=center><b>[ Last updated at 2026/01/21 ]</b></p>
 
 ## Contents
 

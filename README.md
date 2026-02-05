@@ -87,6 +87,7 @@ Jan. 2025<br />
 | [**CLIP-aware Domain-Adaptive Super-Resolution**](https://link.springer.com/article/10.1007/s00530-025-01849-8) <br> | MMS | 2025-05 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/DragonisCV/RAM.svg?style=social&label=Star) <br> [**RAM++: Robust Representation Learning via Adaptive Mask for All-in-One Image Restoration**](https://arxiv.org/abs/2509.12039) <br> | arXiv | 2025-09 | [Github](https://github.com/DragonisCV/RAM) |
 | [**Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting**](https://arxiv.org/abs/2509.22615) <br> | arXiv | 2025-09 | [-](-) |
+| [**LP-LLM: End-to-End Real-World Degraded License Plate Text Recognition via Large Multimodal Models**](https://arxiv.org/abs/2601.09116) <br> | arXiv | 2026-01 | [-](-) |
 
 #### <a id="12-language-branch-adaptation-bridging-modalities">1.2 Language Branch Adaptation: Bridging Modalities</a>
 
@@ -198,6 +199,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/liuyunjing0306/CINet.svg?style=social&label=Star) <br> [**A structural information-guided cross-modal method for damaged inscription inpainting via vision-language models**](https://doi.org/10.1038/s40494-025-02059-1) <br> | npj Heritage Science | 2025-09 | [Github](https://github.com/liuyunjing0306/CINet) |
 | [**GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and High-Fidelity Text Recovery via VLM-Guided Latent Diffusion Model?**](https://arxiv.org/abs/2510.26339) <br> | arXiv | 2025-10 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/cvlab-kaist/UniT.svg?style=social&label=Star) <br> [**Unified Diffusion Transformer for High-fidelity Text-Aware Image Restoration**](https://arxiv.org/abs/2512.08922) <br> | arXiv | 2025-12 | [Github](https://github.com/cvlab-kaist/UniT) |
+| [**SCENE: Semantic-aware Codec Enhancement with Neural Embeddings**](https://arxiv.org/abs/2601.22189) <br> | ICASSP | 2026-01 | [-](-) |
 
 ##### <a id="212-language-driven-manipulation">2.1.2 Language-Driven Manipulation</a>
 
@@ -267,6 +269,7 @@ Jan. 2025<br />
 | [**Real-world super-resolution with VLM-based degradation prior learning**](https://www.nature.com/articles/s41598-025-14581-0) <br> | Sci Rep | 2025-08 | [-](-) |
 | [**Mixture of Ranks with Degradation-Aware Routing for One-Step Real-World Image Super-Resolution**](https://arxiv.org/abs/2511.16024) <br> | arXiv | 2025-11 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/LowLevelAI/VAR-LIDE.svg?style=social&label=Star) <br> [**Zero-Reference Joint Low-Light Enhancement and Deblurring via Visual Autoregressive Modeling with VLM-Derived Modulation**](https://arxiv.org/abs/2511.18591) <br> | AAAI | 2025-11 | [Github](https://github.com/LowLevelAI/VAR-LIDE) |
+| [**CLIP-Guided Unsupervised Semantic-Aware Exposure Correction**](https://arxiv.org/abs/2601.19129) <br> | ICASSP | 2026-01 | [-](-) |
 
 ##### <a id="222-description-based-restoration">2.2.2 Description-based Restoration</a>
 
@@ -344,6 +347,12 @@ Jan. 2025<br />
 | [**Revisiting Vision–Language Foundations for No-Reference Image Quality Assessment**](https://arxiv.org/abs/2509.17374) <br> | WACV | 2025-09 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/prazmara/defog-detection-benchmark.svg?style=social&label=Star) <br> [**From Filters to VLMs: Benchmarking Defogging Methods through Object Detection and Segmentation Performance**](https://arxiv.org/abs/2510.03906) <br> | arXiv | 2025-10 | [Github](https://github.com/prazmara/defog-detection-benchmark) |
 | ![Star](https://img.shields.io/github/stars/2kxx/Q-Scorer.svg?style=social&label=Star) <br> [**Revisiting MLLM Based Image Quality Assessment: Errors and Remedy**](https://arxiv.org/abs/2511.07812) <br> | AAAI | 2025-11 | [Github](https://github.com/2kxx/Q-Scorer) |
+| ![Star](https://img.shields.io/github/stars/House-yuyu/ClearAIR.svg?style=social&label=Star) <br> [**ClearAIR: A Human-Visual-Perception-Inspired All-in-One Image Restoration**](https://arxiv.org/abs/2601.02763) <br> | AAAI | 2026-01 | [Github](https://github.com/House-yuyu/ClearAIR) |
+| [**Enhancing Image Quality Assessment Ability of LMMs via Retrieval-Augmented Generation**](https://arxiv.org/abs/2601.08311) <br> | arXiv | 2026-01 | [-](-) |
+| [**QualiRAG: Retrieval-Augmented Generation for Visual Quality Understanding**](https://arxiv.org/abs/2601.18195) <br> | arXiv | 2026-01 | [Github](https://github.com/clh124/QualiRAG) |
+| [**Q-Bench-Portrait: Benchmarking Multimodal Large Language Models on Portrait Image Quality Perception**](https://arxiv.org/abs/2601.18346) <br> | arXiv | 2026-01 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/michaelliyunhao/VideoAesBench.svg?style=social&label=Star) <br> [**VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models**](https://arxiv.org/abs/2601.21915) <br> | arXiv | 2026-01 | [Github](https://github.com/michaelliyunhao/VideoAesBench) |
+| [**Q-Hawkeye: Reliable Visual Policy Optimization for Image Quality Assessment**](https://arxiv.org/abs/2601.22920) <br> | arXiv | 2026-01 | [-](-) |
 
 ##### <a id="232-semantic-consistency-loss">2.3.2 Semantic Consistency Loss</a>
 
@@ -371,6 +380,8 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/lbc12345/TTPO.svg?style=social&label=Star) <br> [**Test-Time Preference Optimization for Image Restoration**](https://arxiv.org/abs/2511.19169) <br> | AAAI | 2025-11 | [Github](https://github.com/lbc12345/TTPO) |
 | ![Star](https://img.shields.io/github/stars/apple/ml-unigen.svg?style=social&label=Star) <br> [**UniGen-1.5: Enhancing Image Generation and Editing through Reward Unification in Reinforcement Learning**](https://arxiv.org/abs/2511.14760) <br> | arXiv | 2025-11 | [Github](https://github.com/apple/ml-unigen) |
 | ![Star](https://img.shields.io/github/stars/lwq20020127/UARE.svg?style=social&label=Star) <br> [**UARE: Unified Vision-Language Model for Image Quality Assessment, Restoration, and Enhancement**](https://arxiv.org/abs/2512.06750) <br> | arXiv | 2025-12 | [Github](https://github.com/lwq20020127/UARE) |
+| [**Zoom-IQA: Image Quality Assessment with Reliable Region-Aware Reasoning**](https://arxiv.org/abs/2601.02918) <br> | arXiv | 2026-01 | [-](-) |
+
 
 #### <a id="24-vlm-as-intelligent-controller-agent-based-frameworks">2.4 VLM as Intelligent Controller: Agent-Based Frameworks</a>
 
@@ -420,6 +431,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/zhentao-zou/MURE.svg?style=social&label=Star) <br> [**Beyond Textual CoT: Interleaved Text-Image Chains with Deep Confidence Reasoning for Image Editing**](https://arxiv.org/abs/2510.08157) <br> | arXiv | 2025-10 | [Github](https://github.com/zhentao-zou/MURE) |
 | [**Dynamic VLM-Guided Negative Prompting for Diffusion Models**](https://arxiv.org/abs/2510.26052) <br> | NeurIPS | 2025-10 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/HerzogFL/VisPainter.svg?style=social&label=Star) <br> [**From Pixels to Paths: A Multi-Agent Framework for Editable Scientific Illustration**](https://arxiv.org/abs/2510.27452) <br> | arXiv | 2025-10 | [Github](https://github.com/HerzogFL/VisPainter) |
+| [**Q-Probe: Scaling Image Quality Assessment to High Resolution via Context-Aware Agentic Probing**](https://arxiv.org/abs/2601.15356) <br> | arXiv | 2026-01 | [-](-) |
 
 ---
 
@@ -435,6 +447,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/RyannChenOO/MLeVLM.svg?style=social&label=Star) <br> [**MLeVLM: Improve Multi-level Progressive Capabilities based on Multimodal Large Language Model for Medical Visual Question Answering**](https://aclanthology.org/2024.findings-acl.296/) <br> | ACL | 2024-08 | [Github](https://github.com/RyannChenOO/MLeVLM) |
 | [**PET Image Denoising via Text-Guided Diffusion: Integrating Anatomical Priors through Text Prompts**](https://arxiv.org/abs/2502.21260) <br> | arXiv | 2025-02 | [-](-) |
 | [**AgentPolyp: Accurate Polyp Segmentation via Image Enhancement Agent**](https://arxiv.org/abs/2504.10978) <br> | SPL | 2025-04 | [-](-) |
+| [**Text controllable PET denoising**](https://arxiv.org/abs/2601.20990) <br> | SPIE | 2026-01 | [-](-) |
 
 ##### <a id="312-ct-and-mri">3.1.2 CT and MRI</a>
 
@@ -449,6 +462,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/MedAITech/SD4CTSR.svg?style=social&label=Star) <br> [**Taming Stable Diffusion for Computed Tomography Blind Super-Resolution**](https://arxiv.org/abs/2506.11496) <br> | MICCAI WS | 2025-06 | [Github](https://github.com/MedAITech/SD4CTSR) |
 | ![Star](https://img.shields.io/github/stars/hao1635/LangMamba.svg?style=social&label=Star) <br> [**LangMamba: A Language-driven Mamba Framework for Low-dose CT Denoising with Vision-language Models**](https://arxiv.org/abs/2507.06140) <br> | TRPMS | 2025-07 | [Github](https://github.com/hao1635/LangMamba) |
 | ![Star](https://img.shields.io/github/stars/itu-biai/medsiglip_ldct_iqa.svg?style=social&label=Star) <br> [**Prompt-Conditioned FiLM and Multi-Scale Fusion on MedSigLIP for Low-Dose CT Quality Assessment**](https://arxiv.org/abs/2511.12256) <br> | arXiv | 2025-11 | [Github](https://github.com/itu-biai/medsiglip_ldct_iqa) |
+| [**Vision–Language Controlled Deep Unfolding for Joint Medical Image Restoration and Segmentation**](https://arxiv.org/abs/2601.23103) <br> | arXiv | 2026-01 | [-](-) |
 
 #### <a id="32-remote-sensing-data-processing">3.2 Remote Sensing Data Processing</a>
 
@@ -495,6 +509,8 @@ Jan. 2025<br />
 | [**Edit-Your-Interest: Efficient Video Editing via Feature Most-Similar Propagation**](https://arxiv.org/abs/2510.13084) <br> | arXiv | 2025-10 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/tvaranka/ZSVD.svg?style=social&label=Star) <br> [**Zero-Shot Video Deraining with Video Diffusion Models**](https://arxiv.org/abs/2511.18537) <br> | WACV | 2025-11 | [Github](https://github.com/tvaranka/ZSVD) |
 | ![Star](https://img.shields.io/github/stars/Liuxinyv/ReViSE.svg?style=social&label=Star) <br> [**ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning**](https://arxiv.org/abs/2512.09924) <br> | arXiv | 2025-12 | [Github](https://github.com/Liuxinyv/ReViSE) |
+| ![Star](https://img.shields.io/github/stars/TomasDelaney/S3-CLIP.svg?style=social&label=Star) <br> [**S3-CLIP: Video Super Resolution for Person-ReID**](https://arxiv.org/abs/2601.08807) <br> | WACV | 2026-01 | [Github](https://github.com/TomasDelaney/S3-CLIP) |
+
 
 ##### <a id="333-3d-processing-tasks">3.3.3 3D Processing Tasks</a>
 

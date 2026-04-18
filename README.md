@@ -77,6 +77,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/NVlabs/FeatSharp.svg?style=social&label=Star) <br> [**FeatSharp: Your Vision Model Features, Sharper**](https://arxiv.org/abs/2502.16025) <br> | ICML | 2025-02 | [Github](https://github.com/NVlabs/FeatSharp) |
 | ![Star](https://img.shields.io/github/stars/icandle/GenDR.svg?style=social&label=Star) <br> [**GenDR: Lightning Generative Detail Restorator**](https://arxiv.org/abs/2503.06790) <br> | arXiv | 2025-03 | [Github](https://github.com/icandle/GenDR) |
 | ![Star](https://img.shields.io/github/stars/Roveer/Patch-Based-Adapter.svg?style=social&label=Star) <br> [**Ultra High-Resolution Image Inpainting with Patch-Based Content Consistency Adapter**](https://arxiv.org/abs/2510.13419) <br> | arXiv | 2025-10 | [Github](https://github.com/Roveer/Patch-Based-Adapter) |
+| [**Global-Local Dual Perception for MLLMs in High-Resolution Text-Rich Image Translation**](https://arxiv.org/abs/2602.21956) <br> | arXiv | 2026-02 | [-](-) |
 
 ##### <a id="112-feature-fusion">1.1.2 Feature Fusion</a>
 
@@ -200,6 +201,8 @@ Jan. 2025<br />
 | [**GLYPH-SR: Can We Achieve Both High-Quality Image Super-Resolution and High-Fidelity Text Recovery via VLM-Guided Latent Diffusion Model?**](https://arxiv.org/abs/2510.26339) <br> | arXiv | 2025-10 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/cvlab-kaist/UniT.svg?style=social&label=Star) <br> [**Unified Diffusion Transformer for High-fidelity Text-Aware Image Restoration**](https://arxiv.org/abs/2512.08922) <br> | arXiv | 2025-12 | [Github](https://github.com/cvlab-kaist/UniT) |
 | [**SCENE: Semantic-aware Codec Enhancement with Neural Embeddings**](https://arxiv.org/abs/2601.22189) <br> | ICASSP | 2026-01 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/nathan66666/DACESR.svg?style=social&label=Star) <br> [**DACESR: Degradation-Aware Conditional Embedding for Real-World Image Super-Resolution**](https://arxiv.org/abs/2602.23890) <br> | TIP | 2026-02 | [Github](https://github.com/nathan66666/DACESR) |
+| [**QUSR: Quality-Aware and Uncertainty-Guided Image Super-Resolution Diffusion Model**](https://arxiv.org/abs/2603.09125) <br> | ICASSP | 2026-03 | [Github](https://github.com/oTvTog/QUSR) |
 
 ##### <a id="212-language-driven-manipulation">2.1.2 Language-Driven Manipulation</a>
 
@@ -230,6 +233,8 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/thuyvuphuong/Region-in-Context.svg?style=social&label=Star) <br> [**Region in Context: Text-Conditioned Image Editing with Human-Like Semantic Reasoning**](https://arxiv.org/abs/2510.16772) <br> | arXiv | 2025-10 | [Github](https://github.com/thuyvuphuong/Region-in-Context) |
 | [**UniSER: A Foundation Model for Unified Soft Effects Removal**](https://arxiv.org/abs/2511.14183) <br> | arXiv | 2025-11 | [-](-) |
 | [**Generative Editing in the Joint Vision-Language Space for Zero-Shot Composed Image Retrieval**](https://arxiv.org/abs/2512.01636) <br> | arXiv | 2025-12 | [-](-) |
+| [**How Well Do Models Follow Visual Instructions? VIBE: A Systematic Benchmark for Visual Instruction-Driven Image Editing**](https://arxiv.org/abs/2602.01851) <br> | arXiv | 2026-02 | [Github](https://github.com/hwanyu112/VIBE-Benchmark) |
+| [**MCIE: Multimodal LLM-Driven Complex Instruction Image Editing with Spatial Guidance**](https://arxiv.org/abs/2602.07993) <br> | AAAI | 2026-02 | [-](-) |
 
 ##### <a id="213-subject-aware-restoration">2.1.3 Subject-Aware Restoration</a>
 
@@ -240,6 +245,7 @@ Jan. 2025<br />
 | [**PromptLNet: Region-Adaptive Aesthetic Enhancement via Prompt Guidance in Low-Light Enhancement Net**](https://arxiv.org/abs/2503.08276) <br> | arXiv | 2025-03 | [-](-) |
 | [**TSCnet: A Text-driven Semantic-level Controllable Framework for Customized Low-Light Image Enhancement**](http://arxiv.org/abs/2503.08168) <br> | Neurocomputing | 2025-03 | [Project](https://miaorain.github.io/lowlight09.github.io/) |
 | [**EAM: Enhancing Anything with Diffusion Transformers for Blind Super-Resolution**](https://arxiv.org/abs/2505.05209) <br> | arXiv | 2025-05 | [-](-) |
+| [**Empowering Semantic-Sensitive Underwater Image Enhancement with VLM**](https://arxiv.org/abs/2603.12773) <br> | AAAI | 2026-03 | [-](-) |
 
 #### <a id="22-vlm-as-degradation-interpreter-visual-prompting--context">2.2 VLM as Degradation Interpreter: Visual-Prompting & Context</a>
 
@@ -270,6 +276,10 @@ Jan. 2025<br />
 | [**Mixture of Ranks with Degradation-Aware Routing for One-Step Real-World Image Super-Resolution**](https://arxiv.org/abs/2511.16024) <br> | arXiv | 2025-11 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/LowLevelAI/VAR-LIDE.svg?style=social&label=Star) <br> [**Zero-Reference Joint Low-Light Enhancement and Deblurring via Visual Autoregressive Modeling with VLM-Derived Modulation**](https://arxiv.org/abs/2511.18591) <br> | AAAI | 2025-11 | [Github](https://github.com/LowLevelAI/VAR-LIDE) |
 | [**CLIP-Guided Unsupervised Semantic-Aware Exposure Correction**](https://arxiv.org/abs/2601.19129) <br> | ICASSP | 2026-01 | [-](-) |
+| [**Detecting Deepfakes with Multivariate Soft Blending and CLIP-based Image-Text Alignment**](https://arxiv.org/abs/2602.15903) <br> | arXiv | 2026-02 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/qcf-568/TextShield.svg?style=social&label=Star) <br> [**TextShield-R1: Reinforced Reasoning for Tampered Text Detection**](https://arxiv.org/abs/2602.19828) <br> | AAAI | 2026-02 | [Github](https://github.com/qcf-568/TextShield) |
+| [**Understanding Degradation with Vision Language Model**](https://arxiv.org/abs/2602.04565) <br> | arXiv | 2026-02 | [-](-) |
+| [**Generalizable Detection of AI Generated Images with Large Models and Fuzzy Decision Tree**](https://arxiv.org/abs/2603.28508) <br> | arXiv | 2026-03 | [-](-) |
 
 ##### <a id="222-description-based-restoration">2.2.2 Description-based Restoration</a>
 
@@ -353,6 +363,16 @@ Jan. 2025<br />
 | [**Q-Bench-Portrait: Benchmarking Multimodal Large Language Models on Portrait Image Quality Perception**](https://arxiv.org/abs/2601.18346) <br> | arXiv | 2026-01 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/michaelliyunhao/VideoAesBench.svg?style=social&label=Star) <br> [**VideoAesBench: Benchmarking the Video Aesthetics Perception Capabilities of Large Multimodal Models**](https://arxiv.org/abs/2601.21915) <br> | arXiv | 2026-01 | [Github](https://github.com/michaelliyunhao/VideoAesBench) |
 | [**Q-Hawkeye: Reliable Visual Policy Optimization for Image Quality Assessment**](https://arxiv.org/abs/2601.22920) <br> | arXiv | 2026-01 | [-](-) |
+| [**ELIQ: A Label-Free Framework for Quality Assessment of Evolving AI-Generated Images**](https://arxiv.org/abs/2602.03558) <br> | arXiv | 2026-02 | [-](-) |
+| [**Human-Aligned MLLM Judges for Fine-Grained Image Editing Evaluation: A Benchmark, Framework, and Analysis**](https://arxiv.org/abs/2602.13028) <br> | arXiv | 2026-02 | [Github](https://github.com/mllmasajudge-anonymous/MLLM-as-a-Judge) |
+| [**Synthetic Image Detection with CLIP: Understanding and Assessing Predictive Cues**](https://arxiv.org/abs/2602.12381) <br> | arXiv | 2026-02 | [Github](https://github.com/marco-willi/clip-cues) |
+| ![Star](https://img.shields.io/github/stars/ChonghuinanWang/CREval.svg?style=social&label=Star) <br> [**CREval: An Automated Interpretable Evaluation for Creative Image Manipulation under Complex Instructions**](https://arxiv.org/abs/2603.26174) <br> | arXiv | 2026-03 | [Github](https://github.com/ChonghuinanWang/CREval) |
+| [**Evaluating Image Editing with LLMs: A Comprehensive Benchmark and Intermediate-Layer Probing Approach**](https://arxiv.org/abs/2603.19775) <br> | arXiv | 2026-03 | [-](-) |
+| [**ME-IQA: Memory-Enhanced Image Quality Assessment via Re-Ranking**](https://arxiv.org/abs/2603.20785) <br> | arXiv | 2026-03 | [-](-) |
+| [**Q-Tacit: Image Quality Assessment via Latent Visual Reasoning**](https://arxiv.org/abs/2603.22641) <br> | arXiv | 2026-03 | [Github](https://github.com/YuxuanJJ/Q-Tacit) |
+| [**R4-CGQA: Retrieval-based Vision Language Models for Computer Graphics Image Quality Assessment**](https://arxiv.org/abs/2603.10578) <br> | CVPR | 2026-03 | [Github](https://github.com/lizhuangzi/R4-CGQA) |
+| [**Vision-Language Models vs Human: Perceptual Image Quality Assessment**](https://arxiv.org/abs/2603.24578) <br> | arXiv | 2026-03 | [-](-) |
+
 
 ##### <a id="232-semantic-consistency-loss">2.3.2 Semantic Consistency Loss</a>
 
@@ -381,6 +401,8 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/apple/ml-unigen.svg?style=social&label=Star) <br> [**UniGen-1.5: Enhancing Image Generation and Editing through Reward Unification in Reinforcement Learning**](https://arxiv.org/abs/2511.14760) <br> | arXiv | 2025-11 | [Github](https://github.com/apple/ml-unigen) |
 | ![Star](https://img.shields.io/github/stars/lwq20020127/UARE.svg?style=social&label=Star) <br> [**UARE: Unified Vision-Language Model for Image Quality Assessment, Restoration, and Enhancement**](https://arxiv.org/abs/2512.06750) <br> | arXiv | 2025-12 | [Github](https://github.com/lwq20020127/UARE) |
 | [**Zoom-IQA: Image Quality Assessment with Reliable Region-Aware Reasoning**](https://arxiv.org/abs/2601.02918) <br> | arXiv | 2026-01 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/langmanbusi/CoCoEdit.svg?style=social&label=Star) <br> [**CoCoEdit: Content-Consistent Image Editing via Region Regularized Reinforcement Learning**](https://arxiv.org/abs/2602.14068) <br> | IJCAI | 2026-02 | [Github](https://github.com/langmanbusi/CoCoEdit) |
+| ![Star](https://img.shields.io/github/stars/IntMeGroup/EditHF.svg?style=social&label=Star) <br> [**EditHF-1M: A Million-Scale Rich Human Preference Feedback for Image Editing**](https://arxiv.org/abs/2603.14916) <br> | arXiv | 2026-03 | [Github](https://github.com/IntMeGroup/EditHF) |
 
 
 #### <a id="24-vlm-as-intelligent-controller-agent-based-frameworks">2.4 VLM as Intelligent Controller: Agent-Based Frameworks</a>
@@ -416,6 +438,11 @@ Jan. 2025<br />
 | [**Image-POSER: Reflective RL for Multi-Expert Image Generation and Editing**](https://arxiv.org/abs/2511.11780) <br> | arXiv | 2025-11 | [-](-) |
 | [**T2T-VICL: Unlocking the Boundaries of Cross-Task Visual In-Context Learning via Implicit Text-Driven VLMs**](https://arxiv.org/abs/2511.16107) <br> | arXiv | 2025-11 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/JIA-Lab-research/RePlan.svg?style=social&label=Star) <br> [**RePlan: Reasoning-guided Region Planning for Complex Instruction-based Image Editing**](https://arxiv.org/abs/2512.16864) <br> | arXiv | 2025-12 | [Github](https://github.com/JIA-Lab-research/RePlan) |
+| [**ForgeryVCR: Visual-Centric Reasoning via Efficient Forensic Tools in MLLMs for Image Forgery Detection and Localization**](https://arxiv.org/abs/2602.14098) <br> | arXiv | 2026-02 | [Project](https://youqiwong.github.io/projects/ForgeryVCR/) |
+| [**Interaction-Consistent Object Removal via MLLM-Based Reasoning**](https://arxiv.org/abs/2602.01298) <br> | arXiv | 2026-02 | [-](-) |
+| [**MSRAMIE: Multimodal Structured Reasoning Agent for Multi-instruction Image Editing**](https://arxiv.org/abs/2603.16967) <br> | arXiv | 2026-03 | [-](-) |
+| [**PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning**](https://arxiv.org/abs/2603.17055) <br> | arXiv | 2026-03 | [Project](https://wyjgr.github.io/PaAgent.html) |
+| [**TIR-Agent: Training an Explorative and Efficient Agent for Image Restoration**](https://arxiv.org/abs/2603.27742) <br> | arXiv | 2026-03 | [-](-) |
 
 ##### <a id="243-iterative-refinement">2.4.3 Iterative Refinement</a>
 
@@ -448,6 +475,8 @@ Jan. 2025<br />
 | [**PET Image Denoising via Text-Guided Diffusion: Integrating Anatomical Priors through Text Prompts**](https://arxiv.org/abs/2502.21260) <br> | arXiv | 2025-02 | [-](-) |
 | [**AgentPolyp: Accurate Polyp Segmentation via Image Enhancement Agent**](https://arxiv.org/abs/2504.10978) <br> | SPL | 2025-04 | [-](-) |
 | [**Text controllable PET denoising**](https://arxiv.org/abs/2601.20990) <br> | SPIE | 2026-01 | [-](-) |
+| [**FluoCLIP: Stain-Aware Focus Quality Assessment in Fluorescence Microscopy**](https://arxiv.org/abs/2602.23791) <br> | arXiv | 2026-02 | [Project](https://fluoclip.github.io/) |
+| [**MedQ-UNI: Toward Unified Medical Image Quality Assessment and Restoration via Vision-Language Modeling**](https://arxiv.org/abs/2603.18465) <br> | arXiv | 2026-03 | [-](-) |
 
 ##### <a id="312-ct-and-mri">3.1.2 CT and MRI</a>
 
@@ -602,3 +631,7 @@ Jan. 2025<br />
 | [**Clear Roads, Clear Vision: Advancements in Multi-Weather Restoration for Smart Transportation**](https://arxiv.org/abs/2510.09228) <br> | arXiv | 2025-10 | [Github](https://github.com/ChaudharyUPES/) |
 | ![Star](https://img.shields.io/github/stars/RitAreaSciencePark/physics-informed-stm-restoration.svg?style=social&label=Star) <br> [**Generative Image Restoration and Super-Resolution using Physics-Informed Synthetic Data for Scanning Tunneling Microscopy**](https://arxiv.org/abs/2510.25921) <br> | arXiv | 2025-10 | [Github](https://github.com/RitAreaSciencePark/physics-informed-stm-restoration) |
 | [**DiffSeg30k: A Multi-Turn Diffusion Editing Benchmark for Localized AIGC Detection**](https://arxiv.org/abs/2511.19111) <br> | arXiv | 2025-11 | [HuggingFace](https://huggingface.co/datasets/Chaos2629/Diffseg30k) |
+| [**FOCA: Frequency-Oriented Cross-Domain Forgery Detection, Localization and Explanation via Multi-Modal Large Language Model**](https://arxiv.org/abs/2602.18880) <br> | ICASSP | 2026-02 | [-](-) |
+| [**Universal Anti-forensics Attack against Image Forgery Detection via Multi-modal Guidance**](https://arxiv.org/abs/2602.06530) <br> | arXiv | 2026-02 | [-](-) |
+| [**Generalizable Detection of AI Generated Images with Large Models and Fuzzy Decision Tree**](https://arxiv.org/abs/2603.28508) <br> | arXiv | 2026-03 | [-](-) |
+| [**When Detectors Forget Forensics: Blocking Semantic Shortcuts for Generalizable AI-Generated Image Detection**](https://arxiv.org/abs/2603.09242) <br> | arXiv | 2026-03 | [-](-) |

@@ -4,7 +4,7 @@
 
 <p align=center>Please feel free to offer your suggestions in the Issues and pull requests to add links.</p>
 
-<p align=center><b>[ Last updated at 2026/04/18 ]</b></p>
+<p align=center><b>[ Last updated at 2026/05/06 ]</b></p>
 
 ## Contents
 
@@ -89,6 +89,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/DragonisCV/RAM.svg?style=social&label=Star) <br> [**RAM++: Robust Representation Learning via Adaptive Mask for All-in-One Image Restoration**](https://arxiv.org/abs/2509.12039) <br> | arXiv | 2025-09 | [Github](https://github.com/DragonisCV/RAM) |
 | [**Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting**](https://arxiv.org/abs/2509.22615) <br> | arXiv | 2025-09 | [-](-) |
 | [**LP-LLM: End-to-End Real-World Degraded License Plate Text Recognition via Large Multimodal Models**](https://arxiv.org/abs/2601.09116) <br> | arXiv | 2026-01 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/Yuhan-Luo/Semantic-Fine-grained-Alignment-and-Mixture-of-Experts.svg?style=social&label=Star) <br> [**Rethinking Cross-Domain Evaluation for Face Forgery Detection with Semantic Fine-grained Alignment and Mixture-of-Experts**](https://arxiv.org/abs/2604.21478) <br> | arXiv | 2026-04 | [Github](https://github.com/Yuhan-Luo/Semantic-Fine-grained-Alignment-and-Mixture-of-Experts) |
 
 #### <a id="12-language-branch-adaptation-bridging-modalities">1.2 Language Branch Adaptation: Bridging Modalities</a>
 
@@ -102,6 +103,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/MIV-XJTU/FLAME.svg?style=social&label=Star) <br> [**FLAME: Frozen Large Language Models Enable Data-Efficient Language-Image Pre-training**](http://arxiv.org/abs/2411.11927) <br> | arXiv | 2024-11 | [Github](https://github.com/MIV-XJTU/FLAME) |
 | ![Star](https://img.shields.io/github/stars/W-JG/RAP-SR.svg?style=social&label=Star) <br> [**RAP-SR: RestorAtion Prior Enhancement in Diffusion Models for Realistic Image Super-Resolution**](https://arxiv.org/abs/2412.07149) <br> | AAAI | 2024-12 | [Github](https://github.com/W-JG/RAP-SR) |
 | ![Star](https://img.shields.io/github/stars/GaoMY-521/CaPL_Code.svg?style=social&label=Star) <br> [**Causality-guided Prompt Learning for Vision-language Models via Visual Granulation**](https://arxiv.org/abs/2509.03803) <br> | ICCV | 2025-09 | [Github](https://github.com/GaoMY-521/CaPL_Code) |
+| ![Star](https://img.shields.io/github/stars/OUC-YER/SePL-DeepfakeDetection.svg?style=social&label=Star) <br> [**Generalizable Face Forgery Detection via Separable Prompt Learning**](https://arxiv.org/abs/2604.17307) <br> | arXiv | 2026-04 | [Github](https://github.com/OUC-YER/SePL-DeepfakeDetection) |
 
 ##### <a id="122-instruction-tuning-for-restoration">1.2.2 Instruction Tuning for Restoration</a>
 
@@ -235,6 +237,7 @@ Jan. 2025<br />
 | [**Generative Editing in the Joint Vision-Language Space for Zero-Shot Composed Image Retrieval**](https://arxiv.org/abs/2512.01636) <br> | arXiv | 2025-12 | [-](-) |
 | [**How Well Do Models Follow Visual Instructions? VIBE: A Systematic Benchmark for Visual Instruction-Driven Image Editing**](https://arxiv.org/abs/2602.01851) <br> | arXiv | 2026-02 | [Github](https://github.com/hwanyu112/VIBE-Benchmark) |
 | [**MCIE: Multimodal LLM-Driven Complex Instruction Image Editing with Spatial Guidance**](https://arxiv.org/abs/2602.07993) <br> | AAAI | 2026-02 | [-](-) |
+| [**EditCaption: Human-Aligned Instruction Synthesis for Image Editing via Supervised Fine-Tuning and Direct Preference Optimization**](https://arxiv.org/abs/2604.08213) <br> | arXiv | 2026-04 | [-](-) |
 
 ##### <a id="213-subject-aware-restoration">2.1.3 Subject-Aware Restoration</a>
 
@@ -280,6 +283,7 @@ Jan. 2025<br />
 | ![Star](https://img.shields.io/github/stars/qcf-568/TextShield.svg?style=social&label=Star) <br> [**TextShield-R1: Reinforced Reasoning for Tampered Text Detection**](https://arxiv.org/abs/2602.19828) <br> | AAAI | 2026-02 | [Github](https://github.com/qcf-568/TextShield) |
 | [**Understanding Degradation with Vision Language Model**](https://arxiv.org/abs/2602.04565) <br> | arXiv | 2026-02 | [-](-) |
 | [**Generalizable Detection of AI Generated Images with Large Models and Fuzzy Decision Tree**](https://arxiv.org/abs/2603.28508) <br> | arXiv | 2026-03 | [-](-) |
+| [**DistortBench: Benchmarking Vision Language Models on Image Distortion Identification**](https://arxiv.org/abs/2604.19966) <br> | arXiv | 2026-04 | [-](-) |
 
 ##### <a id="222-description-based-restoration">2.2.2 Description-based Restoration</a>
 
@@ -372,7 +376,11 @@ Jan. 2025<br />
 | [**Q-Tacit: Image Quality Assessment via Latent Visual Reasoning**](https://arxiv.org/abs/2603.22641) <br> | arXiv | 2026-03 | [Github](https://github.com/YuxuanJJ/Q-Tacit) |
 | [**R4-CGQA: Retrieval-based Vision Language Models for Computer Graphics Image Quality Assessment**](https://arxiv.org/abs/2603.10578) <br> | CVPR | 2026-03 | [Github](https://github.com/lizhuangzi/R4-CGQA) |
 | [**Vision-Language Models vs Human: Perceptual Image Quality Assessment**](https://arxiv.org/abs/2603.24578) <br> | arXiv | 2026-03 | [-](-) |
-
+| ![Star](https://img.shields.io/github/stars/AWCXV/EvaNet.svg?style=social&label=Star) <br> [**EvaNet: Towards More Efficient and Consistent Infrared and Visible Image Fusion Assessment**](https://arxiv.org/abs/2604.02896) <br> | TPAMI | 2026-04 | [Github](https://github.com/AWCXV/EvaNet) |
+| [**Multi-Granularity Reasoning for Image Quality Assessment via Attribute-Aware Reinforcement Learning to Rank**](https://arxiv.org/abs/2604.09704) <br> | arXiv | 2026-04 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/narthchin/RAIM-PIQA.svg?style=social&label=Star) <br> [**NTIRE 2026 The 3rd Restore Any Image Model (RAIM) Challenge: Professional Image Quality Assessment (Track 1)**](https://arxiv.org/abs/2604.12512) <br> | CVPRW | 2026-04 | [Github](https://github.com/narthchin/RAIM-PIQA) |
+| [**Redefining Quality Criteria and Distance-Aware Score Modeling for Image Editing Assessment**](https://arxiv.org/abs/2604.12175) <br> | arXiv | 2026-04 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/wesar1/UniEditBench.svg?style=social&label=Star) <br> [**UniEditBench: A Unified and Cost-Effective Benchmark for Image and Video Editing via Distilled MLLMs**](https://arxiv.org/abs/2604.15871) <br> | arXiv | 2026-04 | [Github](https://github.com/wesar1/UniEditBench) |
 
 ##### <a id="232-semantic-consistency-loss">2.3.2 Semantic Consistency Loss</a>
 
@@ -403,7 +411,8 @@ Jan. 2025<br />
 | [**Zoom-IQA: Image Quality Assessment with Reliable Region-Aware Reasoning**](https://arxiv.org/abs/2601.02918) <br> | arXiv | 2026-01 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/langmanbusi/CoCoEdit.svg?style=social&label=Star) <br> [**CoCoEdit: Content-Consistent Image Editing via Region Regularized Reinforcement Learning**](https://arxiv.org/abs/2602.14068) <br> | IJCAI | 2026-02 | [Github](https://github.com/langmanbusi/CoCoEdit) |
 | ![Star](https://img.shields.io/github/stars/IntMeGroup/EditHF.svg?style=social&label=Star) <br> [**EditHF-1M: A Million-Scale Rich Human Preference Feedback for Image Editing**](https://arxiv.org/abs/2603.14916) <br> | arXiv | 2026-03 | [Github](https://github.com/IntMeGroup/EditHF) |
-
+| [**HP-Edit: A Human-Preference Post-Training Framework for Image Editing**](https://arxiv.org/abs/2604.19406) <br> | CVPR | 2026-04 | [-](-) |
+| [**Q-DeepSight: Incentivizing Thinking with Images for Image Quality Assessment and Refinement**](https://arxiv.org/abs/2604.16858) <br> | arXiv | 2026-04 | [-](-) |
 
 #### <a id="24-vlm-as-intelligent-controller-agent-based-frameworks">2.4 VLM as Intelligent Controller: Agent-Based Frameworks</a>
 
@@ -443,6 +452,7 @@ Jan. 2025<br />
 | [**MSRAMIE: Multimodal Structured Reasoning Agent for Multi-instruction Image Editing**](https://arxiv.org/abs/2603.16967) <br> | arXiv | 2026-03 | [-](-) |
 | [**PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning**](https://arxiv.org/abs/2603.17055) <br> | arXiv | 2026-03 | [Project](https://wyjgr.github.io/PaAgent.html) |
 | [**TIR-Agent: Training an Explorative and Efficient Agent for Image Restoration**](https://arxiv.org/abs/2603.27742) <br> | arXiv | 2026-03 | [-](-) |
+| ![Star](https://img.shields.io/github/stars/plbbl/GenSmoke-GS.svg?style=social&label=Star) <br> [**GenSmoke-GS: A Multi-Stage Method for Novel View Synthesis from Smoke-Degraded Images Using a Generative Model**](https://arxiv.org/abs/2604.03039) <br> | CVPRW | 2026-04 | [Github](https://github.com/plbbl/GenSmoke-GS) |
 
 ##### <a id="243-iterative-refinement">2.4.3 Iterative Refinement</a>
 
@@ -459,6 +469,7 @@ Jan. 2025<br />
 | [**Dynamic VLM-Guided Negative Prompting for Diffusion Models**](https://arxiv.org/abs/2510.26052) <br> | NeurIPS | 2025-10 | [-](-) |
 | ![Star](https://img.shields.io/github/stars/HerzogFL/VisPainter.svg?style=social&label=Star) <br> [**From Pixels to Paths: A Multi-Agent Framework for Editable Scientific Illustration**](https://arxiv.org/abs/2510.27452) <br> | arXiv | 2025-10 | [Github](https://github.com/HerzogFL/VisPainter) |
 | [**Q-Probe: Scaling Image Quality Assessment to High Resolution via Context-Aware Agentic Probing**](https://arxiv.org/abs/2601.15356) <br> | arXiv | 2026-01 | [-](-) |
+| [**Making Image Editing Easier via Adaptive Task Reformulation with Agentic Executions**](https://arxiv.org/abs/2604.15917) <br> | arXiv | 2026-04 | [-](-) |
 
 ---
 
